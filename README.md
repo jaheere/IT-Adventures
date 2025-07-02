@@ -1,4 +1,6 @@
 # IT Adventures – Nerdstown Chronicles
+#### Author: Bocaletto Luca
+#### OS: Linux
 
 **Un’avventura testuale comica e tecnica in puro stile open source**
 
