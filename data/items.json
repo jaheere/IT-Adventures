@@ -114,6 +114,67 @@
     "name": "Adattatore USB-C → USB-A",
     "description": "Adapter minimal per collegare periferiche legacy a porte moderne: piccolo ma indispensabile per il retro‐tech.",
     "usable_in": ["casa", "ufficio", "data_center"]
-  }
+  },
+  [
+  {
+    "id": "switch_rete",
+    "name": "Switch di Rete 24 porte",
+    "description": "Switch gestito Gigabit per instradare traffico in ufficio o data center senza colli di bottiglia.",
+    "usable_in": ["ufficio", "data_center", "server_room"]
+  },
+  {
+    "id": "firewall_hw",
+    "name": "Firewall Hardware",
+    "description": "Appliance firewall dedicato: blocca attacchi DDoS e regole IP/MAC senza consumare CPU del server.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "monitor_27",
+    "name": "Monitor 27\" 4K",
+    "description": "Schermo ultra-HD per vedere ogni dettaglio di log e codice con cristallina nitidezza.",
+    "usable_in": ["ufficio", "casa", "sala_chat"]
+  },
+  {
+    "id": "sedia_ergonomica",
+    "name": "Sedia Ergonomica da Gaming",
+    "description": "Poltrona con supporto lombare e poggiatesta: ideale per sessioni di debugging da maratona.",
+    "usable_in": ["casa", "ufficio"]
+  },
+  {
+    "id": "supporto_laptop",
+    "name": "Supporto Laptop Regolabile",
+    "description": "Stand in alluminio per sollevare il portatile all'altezza giusta, evitare colli e migliorare il flusso d'aria.",
+    "usable_in": ["casa", "ufficio", "fab_lab"]
+  },
+  {
+    "id": "kit_raspbian",
+    "name": "Kit SD Raspbian",
+    "description": "Scheda microSD con image Raspbian preinstallata: plug&play per progetti IoT e server casalinghi.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "antenna_wifi",
+    "name": "Antenna Wi-Fi ad Alto Guadagno",
+    "description": "Direzionale 9dBi per estendere il segnale wireless fino all’ultimo angolo della Nerdstown.",
+    "usable_in": ["casa", "ufficio", "market"]
+  },
+  {
+    "id": "ventola_12v",
+    "name": "Ventola 12V 120mm",
+    "description": "Cooler silenziosa per case e rack: mantiene le temperature basse anche sotto stress.",
+    "usable_in": ["data_center", "server_room", "fab_lab"]
+  },
+  {
+    "id": "chiavetta_gpio",
+    "name": "Chiavetta USB→GPIO",
+    "description": "Adattatore USB che espone pin GPIO per controllare LED, sensori e relè via script Python.",
+    "usable_in": ["casa", "fab_lab"]
+  },
+  {
+    "id": "microfono_usb",
+    "name": "Microfono USB da Streaming",
+    "description": "Microfono cardioide plug-and-play: perfetto per chat di team, podcast e live-coding.",
+    "usable_in": ["casa", "ufficio", "sala_chat"]
+  }  
   ]
 }
