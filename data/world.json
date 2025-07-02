@@ -100,7 +100,53 @@
       "desc": "Sei finalmente nel regno divino dell’alta disponibilità. Il tuo codice gira in container e persino le tue eccezioni si auto-riparano. Complimenti, sei un vero master IT!",
       "exits": {},
       "items": []
-    }
+    },
+     "hackerspace": {
+    "title": "NerdHackerspace",
+    "desc": "Un loft pieno di desk condivisi, stampanti 3D e montagne di PCB. Cavi volanti ovunque e un graffito “Hack the Planet” sulla parete.",
+    "exits": {
+      "est": "strada",
+      "sud": "fab_lab",
+      "ovest": "coworking"
+    },
+    "items": ["raspberry_pi", "breadboard_400pt"]
+  },
+  "fab_lab": {
+    "title": "Fab Lab di Nerdstown",
+    "desc": "Luci blu e laser cutter in azione. Tavoli carichi di componenti elettronici, saldatrici industriali e un microscopio digitale.",
+    "exits": {
+      "nord": "hackerspace",
+      "est": "data_center"
+    },
+    "items": ["multimetro", "solder_fume_extractor"]
+  },
+  "coworking": {
+    "title": "Spazio Coworking",
+    "desc": "Postazioni in coworking con piante sullo sfondo, divani vintage e prese a muro a non finire. Ideale per remote pair-programming.",
+    "exits": {
+      "est": "hackerspace",
+      "sud": "caffè"
+    },
+    "items": ["power_bank", "microfono_usb"]
+  },
+  "museo_retro": {
+    "title": "Museo del Computer Retrò",
+    "desc": "Vetrine con Apple I, primi mainframe e un vecchio punch-card reader. Un cartello recita “Non toccare i pezzi da museo… ma prova a risolvere il quiz!”.",
+    "exits": {
+      "ovest": "strada"
+    },
+    "items": [],
+    "event": "quiz_retro"
+  },
+  "ai_lab": {
+    "title": "AI Lab Segreto",
+    "desc": "Server GPU in rack, poster di modelli neurali e un terminale con un prompt Python che recita “Train or Die”.",
+    "exits": {
+      "ovest": "data_center"
+    },
+    "items": ["gpu_cluster_token"],
+    "requires": "power_strip"
+  }
   },
   "events": {
     "puzzle_server": {
