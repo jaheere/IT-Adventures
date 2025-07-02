@@ -312,6 +312,184 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "ping_sensei",
+    "name": "Ivan il Ping Sensei",
+    "location": "strada",
+    "intro": "“Tra un hop e l’altro, ti rivelo il segreto del ping perfetto.”",
+    "quest_id": 29,
+    "dialogue": [
+      {
+        "line": "Sensei: ‘Quale opzione di ping specifica il numero di pacchetti da inviare?’",
+        "options": [
+          { "text": "-c <count>",      "correct": true  },
+          { "text": "-i <interval>",   "correct": false },
+          { "text": "-t <timeout>",    "correct": false },
+          { "text": "-n <numeric>",    "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cron_wizard",
+    "name": "Beatrice la Cron Wizard",
+    "location": "ufficio",
+    "intro": "“Ogni ora come un orologio svizzero: il mio crontab non sbaglia un colpo.”",
+    "quest_id": 30,
+    "dialogue": [
+      {
+        "line": "Wizard: ‘Quale riga inserisci in crontab per eseguire /path/to/script.sh ogni ora?’",
+        "options": [
+          { "text": "0 * * * * /path/to/script.sh", "correct": true  },
+          { "text": "* * * * * /path/to/script.sh", "correct": false },
+          { "text": "*/60 * * * * /path/to/script.sh", "correct": false },
+          { "text": "0 0 * * * /path/to/script.sh",   "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exec_guru",
+    "name": "Valeria la Scriptara",
+    "location": "casa",
+    "intro": "“Effettuiamo il deploy dello script: giusto permessi, giusta timing.”",
+    "quest_id": 31,
+    "dialogue": [
+      {
+        "line": "Scriptara: ‘Quale comando rende eseguibile script.sh?’",
+        "options": [
+          { "text": "chmod +x script.sh",   "correct": true  },
+          { "text": "chown script.sh",      "correct": false },
+          { "text": "chmod 755 script",     "correct": false },
+          { "text": "ls -l script.sh",      "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "virt_guru",
+    "name": "Donatella la Virtuosa",
+    "location": "data_center",
+    "intro": "“Virtuale o fisico, la memoria è sacra: controlliamola per bene.”",
+    "quest_id": 32,
+    "dialogue": [
+      {
+        "line": "Virtuosa: ‘Quale comando mostra memoria e swap in megabyte?’",
+        "options": [
+          { "text": "free -m",    "correct": true  },
+          { "text": "vmstat",     "correct": false },
+          { "text": "top",        "correct": false },
+          { "text": "htop",       "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caffeinista",
+    "name": "Giorgio il Caffeinista",
+    "location": "market",
+    "intro": "“Ho la capsula che fa crackle di energia: ti serve un boost?”",
+    "quest_id": 33,
+    "dialogue": [
+      {
+        "line": "Caffeinista: ‘Vuoi la capsula energetica o un power bank?’",
+        "options": [
+          { "text": "Prendo la capsula speciale, grazie!", "correct": true  },
+          { "text": "Preferisco un power bank…",           "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alias_maestro",
+    "name": "Lorenzo l’Alias Maestro",
+    "location": "caffè",
+    "intro": "“Un alias al giorno toglie il CTRL+C di torno.”",
+    "quest_id": 34,
+    "dialogue": [
+      {
+        "line": "Alias Maestro: ‘Quale alias definisci per ls -lah?’",
+        "options": [
+          { "text": "alias ll='ls -lah'", "correct": true  },
+          { "text": "alias la='ls -lh'",  "correct": false },
+          { "text": "alias ll='ls -l'",   "correct": false },
+          { "text": "alias l='ls -al'",   "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "line_counter",
+    "name": "Cristina la Conte-Lines",
+    "location": "sala_chat",
+    "intro": "“Ogni riga conta: vediamo quant’è lunga la tua pazienza.”",
+    "quest_id": 35,
+    "dialogue": [
+      {
+        "line": "Conte-Lines: ‘Quale comando restituisce il numero di righe di file.txt?’",
+        "options": [
+          { "text": "wc -l file.txt",                "correct": true  },
+          { "text": "grep -c '' file.txt",           "correct": false },
+          { "text": "awk 'END{print NR}' file.txt",  "correct": false },
+          { "text": "sed -n '=' file.txt",           "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "base64_expert",
+    "name": "Franco il Codificatore",
+    "location": "telefono_fax",
+    "intro": "“In base64 vedo tutto chiaro: prova a mandare quel fax.”",
+    "quest_id": 36,
+    "dialogue": [
+      {
+        "line": "Codificatore: ‘Quale comando codifica input in base64?’",
+        "options": [
+          { "text": "base64",       "correct": true  },
+          { "text": "uuencode",     "correct": false },
+          { "text": "base64_encode","correct": false },
+          { "text": "encode64",     "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "regex_queen",
+    "name": "Monica la RegEx Queen",
+    "location": "sala_email",
+    "intro": "“Con le espressioni regolari domi anche l’inbox più selvaggia.”",
+    "quest_id": 37,
+    "dialogue": [
+      {
+        "line": "RegEx Queen: ‘Quale comando elimina le righe vuote da inbox.txt?’",
+        "options": [
+          { "text": "sed '/^$/d' inbox.txt",   "correct": false },
+          { "text": "grep -v '^$' inbox.txt", "correct": false },
+          { "text": "awk 'NF' inbox.txt",     "correct": false },
+          { "text": "tutte e tre le precedenti","correct": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "diego_skid",
+    "name": "Diego The Skid il SuperHackers",
+    "location": "server_room",
+    "intro": "“Quarant’anni di exploit e prompt: dimostra quanto vali.”",
+    "quest_id": 38,
+    "dialogue": [
+      {
+        "line": "SuperHackers: ‘Quale comando useresti per copiare file.txt via SSH?’",
+        "options": [
+          { "text": "scp file.txt user@host:/dest", "correct": true  },
+          { "text": "rsync file.txt user@host:/dest","correct": false },
+          { "text": "cp file.txt /dest",             "correct": false },
+          { "text": "ssh-copy-id file.txt",          "correct": false }
+        ]
+      }
+    ]
+  }  
   ]
 }
