@@ -1,0 +1,141 @@
+{
+  "npcs": [
+    {
+      "id": "rivenditore",
+      "name": "Marco il Rivenditore",
+      "location": "market",
+      "intro": "“Ehi Luca! Ho appena ricevuto un lotto di kit di saldatura open-source, vecchio mio. Ti serve?”",
+      "quest_id": 3,
+      "dialogue": [
+        {
+          "line": "Rivenditore: ‘Vuoi il kit di saldatura o preferisci uno stick RAM a velocità warp?’",
+          "options": [
+            { "text": "‘Prendo il kit di saldatura, grazie!’", "correct": true },
+            { "text": "‘Fammi vedere quel RAM stick RGB…’",        "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barista",
+      "name": "Laura la Barista",
+      "location": "caffè",
+      "intro": "“Benvenuto al Bean Overclock, Luca! Serve un espresso a 5 GHz?”",
+      "quest_id": 4,
+      "dialogue": [
+        {
+          "line": "Barista: ‘Dimmi, quale file di avvio usa Bash per ogni sessione?’",
+          "options": [
+            { "text": "~/.bashrc",           "correct": true },
+            { "text": "/etc/passwd",         "correct": false },
+            { "text": "/usr/bin/bash",       "correct": false },
+            { "text": "~/.vimrc",            "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cliente95",
+      "name": "Sig. Rossi (Cliente Windows95)",
+      "location": "abitazione_cliente",
+      "intro": "“Luca, ti prego: ho quel floppy con la demo segreta, prima che Blue Screen mi prenda!”",
+      "quest_id": 5,
+      "dialogue": [
+        {
+          "line": "Cliente: ‘Hai un driver per floppy o devo mettere le mani nel BIOS?’",
+          "options": [
+            { "text": "‘Prendo il floppy e me ne occupo subito.’",    "correct": true },
+            { "text": "‘Hai provato a pregare il Redmond Lord?’",       "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tecnico_dc",
+      "name": "Giulia la Tecnica",
+      "location": "data_center",
+      "intro": "“Luca, quel disco guasto deve assolutamente tornare operativo. Hai il kit di saldatura?”",
+      "quest_id": 6,
+      "dialogue": [
+        {
+          "line": "Tecnico: ‘Senza stagno e puntale non si ripara nemmeno un LED.’",
+          "options": [
+            { "text": "‘Eccolo, pronto a saldare!’",        "correct": true },
+            { "text": "‘Ops, ho dimenticato il kit…’",     "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sysadmin",
+      "name": "Alessio il SysAdmin",
+      "location": "server_room",
+      "intro": "“Se indovini il mio enigma sul terminale, ti faccio entrare in sudoers.”",
+      "quest_id": 7,
+      "dialogue": [
+        {
+          "line": "SysAdmin: ‘Quale comando ti mostra i permessi di un file come fosse magia?’",
+          "options": [
+            { "text": "ls -l",      "correct": true },
+            { "text": "chmod",      "correct": false },
+            { "text": "stat",       "correct": false },
+            { "text": "permshow",   "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatbot",
+      "name": "Elena la ChatBot",
+      "location": "sala_chat",
+      "intro": "“Nuovo ticket: l’utente vuole vedere un file in terminale. Tocca a te!”",
+      "quest_id": 8,
+      "dialogue": [
+        {
+          "line": "Utente Chat: ‘Come si fa a leggere un file riga per riga?’",
+          "options": [
+            { "text": "view file.txt",   "correct": false },
+            { "text": "grep file.txt",   "correct": false },
+            { "text": "cat file.txt",    "correct": true },
+            { "text": "watch file.txt",  "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fax_operator",
+      "name": "Roberto l’Operatore Fax",
+      "location": "telefono_fax",
+      "intro": "“Fax in arrivo, Luca! Quale comando invia al dispositivo fax0?”",
+      "quest_id": 9,
+      "dialogue": [
+        {
+          "line": "Operatore: ‘Devo mandare 100 pagine, non voglio sbagliare porta.’",
+          "options": [
+            { "text": "lpr -P fax0 ticket.txt", "correct": true },
+            { "text": "faxsend ticket.txt",      "correct": false },
+            { "text": "lp -d fax0 ticket.txt",   "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email_manager",
+      "name": "Sara l’Email Manager",
+      "location": "sala_email",
+      "intro": "“La mia inbox è un campo minato di spam. Puoi ripulirla?”",
+      "quest_id": 10,
+      "dialogue": [
+        {
+          "line": "Email Manager: ‘Quale comando elimina tutte le righe con “Viagra”?’",
+          "options": [
+            { "text": "grep -v Viagra inbox.txt > clean.txt",  "correct": false },
+            { "text": "sed '/Viagra/d' inbox.txt",            "correct": false },
+            { "text": "awk '!/Viagra/' inbox.txt",            "correct": false },
+            { "text": "tutte e tre le precedenti",            "correct": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
