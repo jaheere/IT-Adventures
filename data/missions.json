@@ -184,7 +184,507 @@
         "credits": 80,
         "oss": 6,
         "reputation": 4
-      }
+      },
+       {
+    "id": 11,
+    "location": "strada",
+    "title": "Porta HTTP",
+    "type": "quiz",
+    "desc": "Camminando tra cavi, ti chiedi: quale porta TCP usa di default il protocollo HTTP?",
+    "options": [
+      "22",
+      "80",
+      "443",
+      "53"
+    ],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 30,
+      "oss": 2,
+      "reputation": 1
     }
+  },
+  {
+    "id": 12,
+    "location": "market",
+    "title": "Upgrade di Memoria",
+    "type": "fetch",
+    "desc": "Il tuo sistema fa swap a ogni click: procurati uno stick di RAM dal banchetto.",
+    "item": "stick_ram",
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 3,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 13,
+    "location": "ufficio",
+    "title": "Clonazione Disco",
+    "type": "quiz",
+    "desc": "Per il backup bit-for-bit di un disco usi un comando da terminale. Quale?",
+    "options": [
+      "cp /dev/sda /dev/sdb",
+      "dd if=/dev/sda of=/dev/sdb",
+      "tar -cf backup.tar /dev/sda",
+      "partimage /dev/sda /dev/sdb"
+    ],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 12,
+      "credits": 60,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 14,
+    "location": "casa",
+    "title": "Cronjob Mattutino",
+    "type": "quiz",
+    "desc": "Vuoi programmare uno script in crontab: quale comando usi per editare il file dell’utente?",
+    "options": [
+      "cronedit",
+      "crontab –e",
+      "vim /etc/crontab",
+      "edit cron"
+    ],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 15,
+    "location": "data_center",
+    "title": "Monitoraggio CPU",
+    "type": "quiz",
+    "desc": "Server in fiamme: quale tool built-in ti mostra in tempo reale l’utilizzo CPU?",
+    "options": [
+      "top",
+      "htop",
+      "perf",
+      "sar"
+    ],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 55,
+      "oss": 5,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 16,
+    "location": "caffè",
+    "title": "Wi-Fi Vintage",
+    "type": "quiz",
+    "desc": "Il bar ribadisce: quale protocollo wireless è ormai insicuro e obsoleto?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WEP",
+      "Open"
+    ],
+    "answer": 2,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 40,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 17,
+    "location": "sala_email",
+    "title": "Invio Mail da Terminale",
+    "type": "quiz",
+    "desc": "Hai system-mail sul server: quale comando base invia un’email dalla shell?",
+    "options": [
+      "sendmail",
+      "mail",
+      "mutt",
+      "all of the above"
+    ],
+    "answer": 3,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 18,
+    "location": "ufficio",
+    "title": "Sessione SSH",
+    "type": "quiz",
+    "desc": "Per uscire da una sessione SSH aperta, qual è il comando corretto?",
+    "options": [
+      "logout",
+      "exit",
+      "Ctrl+D",
+      "tutte e tre"
+    ],
+    "answer": 3,
+    "requires": [],
+    "rewards": {
+      "xp": 7,
+      "credits": 35,
+      "oss": 2,
+      "reputation": 1
+    }
+    },
+    {
+    "id": 19,
+    "location": "strada",
+    "title": "Porta HTTPS",
+    "type": "quiz",
+    "desc": "In mezzo ai cavi, ti chiedi: quale porta TCP usa di default il protocollo HTTPS?",
+    "options": ["22", "80", "443", "53"],
+    "answer": 2,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 35,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 20,
+    "location": "ufficio",
+    "title": "Upgrade RAM Express",
+    "type": "fetch",
+    "desc": "Il tuo computer in ufficio sta swap-ping come un matto: porta qui uno stick di RAM per dargli respiro.",
+    "item": "stick_ram",
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 60,
+      "oss": 3,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 21,
+    "location": "casa",
+    "title": "Shebang Maestro",
+    "type": "quiz",
+    "desc": "Vuoi far partire uno script Python con uno shebang: quale linea inserisci in cima al file?",
+    "options": [
+      "#!/usr/bin/python3",
+      "#!/usr/bin/env python3",
+      "#! python3",
+      "#!/bin/bash"
+    ],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 22,
+    "location": "data_center",
+    "title": "Spazio su Disco",
+    "type": "quiz",
+    "desc": "Analizzi l’occupazione disco di un filesystem: quale comando ti serve?",
+    "options": ["du -h", "df -h", "lsblk", "fdisk -l"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 70,
+      "oss": 5,
+      "reputation": 3
+    }
+  },
+  {
+    "id": 23,
+    "location": "caffè",
+    "title": "Open Port Hunt",
+    "type": "quiz",
+    "desc": "Tra un sorso e l’altro, ti chiedi: quale strumento elenca le porte aperte su Linux?",
+    "options": ["ping", "ss -tulpn", "wget", "curl"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 40,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 24,
+    "location": "server_room",
+    "title": "File Sudoers",
+    "type": "quiz",
+    "desc": "Per configurare i privilegi sudo, in quale file modifichi la lista degli utenti?",
+    "options": ["/etc/passwd", "/etc/sudoers", "/etc/shadow", "/usr/bin/sudo"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 12,
+      "credits": 80,
+      "oss": 6,
+      "reputation": 4
+    }
+  },
+  {
+    "id": 25,
+    "location": "sala_chat",
+    "title": "Grep Case-Insensitive",
+    "type": "quiz",
+    "desc": "Un utente vuole cercare \"error\" senza distinzione tra maiuscole e minuscole: quale flag di grep usi?",
+    "options": ["-r", "-i", "-v", "-n"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 3,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 26,
+    "location": "sala_email",
+    "title": "Mail da Shell",
+    "type": "quiz",
+    "desc": "Devi inviare un’email dalla shell specificando un oggetto: quale comando usi?",
+    "options": ["sendmail", "mail -s \"oggetto\"", "mutt -s", "smtp-cli"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 27,
+    "location": "telefono_fax",
+    "title": "Modulo Fax Express",
+    "type": "fetch",
+    "desc": "Devi gestire un ticket urgente via fax: prendi il modulo ticket dalla scrivania.",
+    "item": "modulo_ticket",
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 40,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 28,
+    "location": "market",
+    "title": "Licenza Libera",
+    "type": "quiz",
+    "desc": "Parlando di open source, quale licenza assegna copyleft forte garantendo che derivate restino libere?",
+    "options": ["GPL", "MIT", "Apache", "BSD"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 5,
+      "reputation": 3
+    }
+  },
+  {
+    "id": 29,
+    "location": "strada",
+    "title": "Ping di Risonanza",
+    "type": "quiz",
+    "desc": "Camminando tra i cavi, ti chiedi: quale opzione di ping specifica il numero di pacchetti da inviare?",
+    "options": ["-c <count>", "-i <interval>", "-t <timeout>", "-n <numeric>"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 30,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 30,
+    "location": "ufficio",
+    "title": "Cron Selvatico",
+    "type": "quiz",
+    "desc": "Vuoi schedulare uno script ogni ora: quale linea inserisci in crontab?",
+    "options": ["0 * * * * /path/to/script.sh", "* * * * * /path/to/script.sh", "*/60 * * * * /path/to/script.sh", "0 0 * * * /path/to/script.sh"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 3,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 31,
+    "location": "casa",
+    "title": "Permessi di Esecuzione",
+    "type": "quiz",
+    "desc": "Hai scritto uno script `script.sh`: quale comando lo rende eseguibile?",
+    "options": ["chmod +x script.sh", "chown script.sh", "chmod 755 script", "ls -l script.sh"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 32,
+    "location": "data_center",
+    "title": "Memoria Virtuale",
+    "type": "quiz",
+    "desc": "Devi controllare RAM e swap in megabyte: quale comando usi?",
+    "options": ["free -m", "vmstat", "top", "htop"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 60,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 33,
+    "location": "market",
+    "title": "Capsula Energetica",
+    "type": "fetch",
+    "desc": "Il tuo corpo chiede overclock: prendi una `capsula_speciale` dal banchetto.",
+    "item": "capsula_speciale",
+    "requires": [],
+    "rewards": {
+      "xp": 7,
+      "credits": 30,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 34,
+    "location": "caffè",
+    "title": "Alias da Maestro",
+    "type": "quiz",
+    "desc": "Vorresti velocizzare `ls -lah`: quale alias aggiungi a `~/.bashrc`?",
+    "options": [
+      "alias ll='ls -lah'",
+      "alias la='ls -lh'",
+      "alias ll='ls -l'",
+      "alias l='ls -al'"
+    ],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 40,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 35,
+    "location": "sala_chat",
+    "title": "Conteggio Linee",
+    "type": "quiz",
+    "desc": "Un utente chiede: quale comando restituisce il numero di righe di un file?",
+    "options": ["wc -l file.txt", "grep -c '' file.txt", "awk 'END{print NR}' file.txt", "sed -n '=' file.txt"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 3,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 36,
+    "location": "telefono_fax",
+    "title": "Fax in Base64",
+    "type": "quiz",
+    "desc": "Per inviare allegati binari via email: quale comando codifica in base64?",
+    "options": ["base64", "uuencode", "base64_encode", "encode64"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 37,
+    "location": "sala_email",
+    "title": "Regex di Pulizia",
+    "type": "quiz",
+    "desc": "Devi rimuovere linee vuote da `inbox.txt`: quale comando usi?",
+    "options": [
+      "sed '/^$/d' inbox.txt",
+      "grep -v '^$' inbox.txt",
+      "awk 'NF' inbox.txt",
+      "tutte e tre le precedenti"
+    ],
+    "answer": 3,
+    "requires": [],
+    "rewards": {
+      "xp": 12,
+      "credits": 60,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 38,
+    "location": "server_room",
+    "title": "Copia Sicura",
+    "type": "quiz",
+    "desc": "Per copiare un file tra host via SSH: quale comando useresti?",
+    "options": [
+      "scp file.txt user@host:/dest",
+      "rsync file.txt user@host:/dest",
+      "cp file.txt /dest",
+      "ssh-copy-id file.txt"
+    ],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 55,
+      "oss": 5,
+      "reputation": 2
+    }
+  },
+    
+    
   ]
 }
