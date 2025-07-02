@@ -6,7 +6,10 @@
       "exits": {
         "esci": "strada"
       },
-      "items": ["portatile", "tazza_caffè"]
+      "items": [
+        "portatile",
+        "tazza_caffè"
+      ]
     },
     "strada": {
       "title": "Via Principale di Nerdstown",
@@ -25,7 +28,9 @@
         "sud": "strada",
         "nord": "data_center"
       },
-      "items": ["hard_disk_scaduto"]
+      "items": [
+        "hard_disk_scaduto"
+      ]
     },
     "market": {
       "title": "Nerdstown Market",
@@ -33,7 +38,10 @@
       "exits": {
         "nord": "strada"
       },
-      "items": ["kit_saldatura", "stick_ram"]
+      "items": [
+        "kit_saldatura",
+        "stick_ram"
+      ]
     },
     "caffè": {
       "title": "Bean Overclock Café",
@@ -42,7 +50,9 @@
         "est": "strada",
         "interno": "sala_chat"
       },
-      "items": ["capsula_speciale"]
+      "items": [
+        "capsula_speciale"
+      ]
     },
     "abitazione_cliente": {
       "title": "Casa del Cliente Windows95",
@@ -50,7 +60,9 @@
       "exits": {
         "fuori": "strada"
       },
-      "items": ["floppy_disk"]
+      "items": [
+        "floppy_disk"
+      ]
     },
     "data_center": {
       "title": "Data Center di Nerdstown",
@@ -59,7 +71,9 @@
         "sud": "ufficio",
         "nord": "server_room"
       },
-      "items": ["disco_guasto"],
+      "items": [
+        "disco_guasto"
+      ],
       "requires": "kit_saldatura"
     },
     "server_room": {
@@ -85,7 +99,9 @@
       "exits": {
         "fuori": "strada"
       },
-      "items": ["modulo_ticket"]
+      "items": [
+        "modulo_ticket"
+      ]
     },
     "sala_email": {
       "title": "Sala Email & Helpdesk",
@@ -101,81 +117,112 @@
       "exits": {},
       "items": []
     },
-     "hackerspace": {
-    "title": "NerdHackerspace",
-    "desc": "Un loft pieno di desk condivisi, stampanti 3D e montagne di PCB. Cavi volanti ovunque e un graffito “Hack the Planet” sulla parete.",
-    "exits": {
-      "est": "strada",
-      "sud": "fab_lab",
-      "ovest": "coworking"
+    "hackerspace": {
+      "title": "NerdHackerspace",
+      "desc": "Un loft pieno di desk condivisi, stampanti 3D e montagne di PCB. Cavi volanti ovunque e un graffito “Hack the Planet” sulla parete.",
+      "exits": {
+        "est": "strada",
+        "sud": "fab_lab",
+        "ovest": "coworking"
+      },
+      "items": [
+        "raspberry_pi",
+        "breadboard_400pt"
+      ]
     },
-    "items": ["raspberry_pi", "breadboard_400pt"]
-  },
-  "fab_lab": {
-    "title": "Fab Lab di Nerdstown",
-    "desc": "Luci blu e laser cutter in azione. Tavoli carichi di componenti elettronici, saldatrici industriali e un microscopio digitale.",
-    "exits": {
-      "nord": "hackerspace",
-      "est": "data_center"
+    "fab_lab": {
+      "title": "Fab Lab di Nerdstown",
+      "desc": "Luci blu e laser cutter in azione. Tavoli carichi di componenti elettronici, saldatrici industriali e un microscopio digitale.",
+      "exits": {
+        "nord": "hackerspace",
+        "est": "data_center"
+      },
+      "items": [
+        "multimetro",
+        "solder_fume_extractor"
+      ]
     },
-    "items": ["multimetro", "solder_fume_extractor"]
-  },
-  "coworking": {
-    "title": "Spazio Coworking",
-    "desc": "Postazioni in coworking con piante sullo sfondo, divani vintage e prese a muro a non finire. Ideale per remote pair-programming.",
-    "exits": {
-      "est": "hackerspace",
-      "sud": "caffè"
+    "coworking": {
+      "title": "Spazio Coworking",
+      "desc": "Postazioni in coworking con piante sullo sfondo, divani vintage e prese a muro a non finire. Ideale per remote pair-programming.",
+      "exits": {
+        "est": "hackerspace",
+        "sud": "caffè"
+      },
+      "items": [
+        "power_bank",
+        "microfono_usb"
+      ]
     },
-    "items": ["power_bank", "microfono_usb"]
-  },
-  "museo_retro": {
-    "title": "Museo del Computer Retrò",
-    "desc": "Vetrine con Apple I, primi mainframe e un vecchio punch-card reader. Un cartello recita “Non toccare i pezzi da museo… ma prova a risolvere il quiz!”.",
-    "exits": {
-      "ovest": "strada"
+    "museo_retro": {
+      "title": "Museo del Computer Retrò",
+      "desc": "Vetrine con Apple I, primi mainframe e un vecchio punch-card reader. Un cartello recita “Non toccare i pezzi da museo… ma prova a risolvere il quiz!”.",
+      "exits": {
+        "ovest": "strada"
+      },
+      "items": [],
+      "event": "quiz_retro"
     },
-    "items": [],
-    "event": "quiz_retro"
-  },
-  "ai_lab": {
-    "title": "AI Lab Segreto",
-    "desc": "Server GPU in rack, poster di modelli neurali e un terminale con un prompt Python che recita “Train or Die”.",
-    "exits": {
-      "ovest": "data_center"
-    },
-    "items": ["gpu_cluster_token"],
-    "requires": "power_strip"
-  }
+    "ai_lab": {
+      "title": "AI Lab Segreto",
+      "desc": "Server GPU in rack, poster di modelli neurali e un terminale con un prompt Python che recita “Train or Die”.",
+      "exits": {
+        "ovest": "data_center"
+      },
+      "items": [
+        "gpu_cluster_token"
+      ],
+      "requires": "power_strip"
+    }
   },
   "events": {
     "puzzle_server": {
       "question": "Terminale> \"Quale comando Linux mostra i permessi di un file (e ti fa sentire root)?\"",
-      "options": ["ls -l", "chmod", "stat", "permshow"],
+      "options": [
+        "ls -l",
+        "chmod",
+        "stat",
+        "permshow"
+      ],
       "answer": 0,
       "success": "Accesso ROOT ottenuto! Il rack si apre e sblocchi un server segreto.",
       "failure": "Permessi negati: 403 Forbidden. Forse ti serve più caffè."
+    },
+    "quiz_retro": {
+      "question": "Quale anno vide il lancio dell’Apple I?",
+      "options": [
+        "1974",
+        "1976",
+        "1980",
+        "1984"
+      ],
+      "answer": 1,
+      "success": "Hai rispolverato la storia! Ottieni un adesivo vintage.",
+      "failure": "Troppo recente? Forse un museo non basta, serve più memoria storica."
+    },
+    "ddos_attack": {
+      "question": "Allerta DDoS in corso: quale tool blocca IP sospetti?",
+      "options": [
+        "iptables",
+        "iftop",
+        "curl",
+        "ssh"
+      ],
+      "answer": 0,
+      "success": "Regole aggiornate, traffico pulito!",
+      "failure": "Server sommerso, perdi crediti e reputazione."
+    },
+    "blackout": {
+      "question": "Blackout improvviso: qual è la scorciatoia per disattivare la modalità grafica?",
+      "options": [
+        "ctrl+alt+f1",
+        "alt+f4",
+        "ctrl+c",
+        "ctrl+z"
+      ],
+      "answer": 0,
+      "success": "Torna in console, sistema sotto controllo.",
+      "failure": "Schermo nero, perdi l’accesso a funzionalità vitali."
     }
-  },
-   "quiz_retro": {
-    "question": "Quale anno vide il lancio dell’Apple I?",
-    "options": ["1974", "1976", "1980", "1984"],
-    "answer": 1,
-    "success": "Hai rispolverato la storia! Ottieni un adesivo vintage.",
-    "failure": "Troppo recente? Forse un museo non basta, serve più memoria storica."
-  },
-  "ddos_attack": {
-    "question": "Allerta DDoS in corso: quale tool blocca IP sospetti?",
-    "options": ["iptables", "iftop", "curl", "ssh"],
-    "answer": 0,
-    "success": "Regole aggiornate, traffico pulito!",
-    "failure": "Server sommerso, perdi crediti e reputazione."
-  },
-  "blackout": {
-    "question": "Blackout improvviso: qual è la scorciatoia per disattivare la modalità grafica?",
-    "options": ["ctrl+alt+f1", "alt+f4", "ctrl+c", "ctrl+z"],
-    "answer": 0,
-    "success": "Torna in console, sistema sotto controllo.",
-    "failure": "Schermo nero, perdi l’accesso a funzionalità vitali."
   }
 }
