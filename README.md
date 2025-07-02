@@ -2,18 +2,24 @@
 #### Author: Luca Bocaletto  
 #### OS: Linux  
 
-**A comedic, tech-heavy text adventure in pure open-source style**
+**A comedic, tech-heavy text adventure in pure open-source style**  
 
-In **IT Adventures**, you slip into the well-worn hoodie of Luca, a quick-witted sysadmin armed with nothing but a trusty laptop and a healthy dose of sarcasm. Your playground is **Nerdstown**, a neon-soaked metropolis where Ethernet cables snake through alleyways, cafés pour “Espresso at 5 GHz,” and every corridor hums with server fans. From your cluttered basement hack-den—monitor towers, Linux stickers, and a cat coding in the corner—to the sleek open-space desks at TechCorp, the cozy chaos of Bean Overclock Café, and the cavernous aisles of the Data Center, each location brims with puzzles, NPCs and secrets waiting to be unlocked.
+In **IT Adventures**, you don the hoodie of Luca, a quick-witted sysadmin with a knack for command-line humor. Your playground is **Nerdstown**, a neon-lit city where Ethernet cables crisscross sidewalks like vines, and cafés brew “Espresso at 5 GHz.” You’ll start in your cluttered hacker den—monitor towers balanced like Jenga blocks, Linux stickers plastering every surface, and a cat furiously tapping on a keyboard—before venturing out to:
 
-As you traverse these digital frontiers, you’ll face:
-- **Linux quizzes** testing your mastery of commands, file permissions, network ports and shell tricks.  
-- **Hardware repair missions**: solder bad traces, swap out failing disks, and wrangle stubborn power supplies.  
-- **Fetch quests** to retrieve rare gadgets—RAM sticks, power banks or Raspberry Pi modules—from hidden corners.  
-- **Dynamic events** like DDoS alerts, retro museum quizzes on the Apple I and surprise blackouts that demand split-second terminal hacks.  
-- **NPC interactions** with eccentric characters: from an RGB-obsessed memory vendor to a crusty “SuperHackers” veteran who’s seen every exploit under the sun.
+- **TechCorp’s open-space**: dodge crashing 500 errors, scavenge discarded hard drives, and face your first fetch quest.  
+- The **Bean Overclock Café**: where baristas challenge you with impromptu Linux quizzes while you sip a “Latte 16-Thread.”  
+- The **Data Center**: a labyrinth of buzzing server racks where you’ll wield soldering irons and power banks to revive dead disks.  
+- Hidden corners like the **Retro Museum**, where you prove your vintage lore with Apple I trivia, and the **Secret AI Lab**, locked behind sudo-only doors.
 
-Every success earns you **XP**, in-game **credits**, community **tokens** and coveted **reputation**. Level up to unlock `sudo` privileges, open restricted rooms, and negotiate high-stakes side-quests. Whether you’re debugging a runaway cron job or outsmarting a firewall with clever iptables rules, **IT Adventures** turns every shell command into a step toward hacker legend—one witty one-liner at a time.
+Along the way you’ll tackle:
+
+  • **Linux quizzes** on commands, file permissions, TCP ports and shell scripts—each correct answer awards XP and reputation.  
+  • **Hardware repair missions**: swap bad RAM, solder broken traces, and replace failed power supplies to unlock new areas.  
+  • **Fetch quests** to locate rare items (RGB RAM sticks, Raspberry Pi modules, power banks) scattered across Nerdstown.  
+  • **Dynamic events**—random DDoS alerts, surprise blackouts, retro‐tech puzzles—that force you to think on your feet and type lightning-fast fixes.  
+  • **Eccentric NPCs**: from an RGB-obsessed memory vendor to “Diego The Skid,” a forty-year hacker legend who tests your scp skills.
+
+Every success nets you **XP**, in-game **credits**, open-source **tokens** and coveted **reputation**. Level up to earn `sudo` privileges, open restricted rooms and negotiate high-stakes side-quests. Whether you’re debugging a cron job gone rogue, outsmarting a firewall with clever iptables rules, or simply showing off your grep mastery, **IT Adventures** turns every shell command into a triumph—one witty one-liner at a time.
 
 <p align="center">
   <a href="./index.html">
