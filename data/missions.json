@@ -1,0 +1,190 @@
+{
+  "missions": [
+    {
+      "id": 1,
+      "location": "casa",
+      "title": "Avvio dell’Avatar Pythonico",
+      "type": "quiz",
+      "desc": "Hai scritto uno script Python chiamato `adventures.py`. Come lo lanci correttamente in terminale?",
+      "options": [
+        "run adventures.py",
+        "python adventures.py",
+        "./adventures.sh",
+        "bash adventures.py"
+      ],
+      "answer": 1,
+      "requires": [],
+      "rewards": {
+        "xp": 10,
+        "credits": 50,
+        "oss": 5,
+        "reputation": 2
+      }
+    },
+    {
+      "id": 2,
+      "location": "ufficio",
+      "title": "Diagnosi Crash 500",
+      "type": "quiz",
+      "desc": "Un grafico lampeggia un 500 Internal Server Error. Quale header HTTP indica un “risorsa non trovata”?",
+      "options": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "503 Service Unavailable"
+      ],
+      "answer": 2,
+      "requires": [],
+      "rewards": {
+        "xp": 12,
+        "credits": 70,
+        "oss": 6,
+        "reputation": 3
+      }
+    },
+    {
+      "id": 3,
+      "location": "market",
+      "title": "Shopping Open Source",
+      "type": "fetch",
+      "desc": "Il tuo PC ha bisogno di un kit di saldatura per riparare un disco. Prendi l’oggetto corretto al banchetto.",
+      "item": "kit_saldatura",
+      "requires": [],
+      "rewards": {
+        "xp": 8,
+        "credits": 40,
+        "oss": 2,
+        "reputation": 1
+      }
+    },
+    {
+      "id": 4,
+      "location": "caffè",
+      "title": "Espresso a 5GHz",
+      "type": "quiz",
+      "desc": "Il barista ti sfida: qual è il file di configurazione di Bash che si carica a ogni sessione?",
+      "options": [
+        "~/.bashrc",
+        "/etc/bash.bashrc",
+        "~/.profile",
+        "/usr/bin/bash"
+      ],
+      "answer": 0,
+      "requires": [],
+      "rewards": {
+        "xp": 9,
+        "credits": 45,
+        "oss": 3,
+        "reputation": 2
+      }
+    },
+    {
+      "id": 5,
+      "location": "abitazione_cliente",
+      "title": "Salvataggio da Floppy",
+      "type": "fetch",
+      "desc": "Il cliente Windows95 implora: recupera il file segreto dal suo floppy disk.",
+      "item": "floppy_disk",
+      "requires": [],
+      "rewards": {
+        "xp": 14,
+        "credits": 60,
+        "oss": 0,
+        "reputation": 4
+      }
+    },
+    {
+      "id": 6,
+      "location": "data_center",
+      "title": "Ripara il Disco Guasto",
+      "type": "fetch",
+      "desc": "Hai il kit di saldatura? Vai nel corridoio server e ripara quel disco pieno di bad sector.",
+      "item": "disco_guasto",
+      "requires": ["kit_saldatura"],
+      "rewards": {
+        "xp": 20,
+        "credits": 100,
+        "oss": 8,
+        "reputation": 5
+      }
+    },
+    {
+      "id": 7,
+      "location": "server_room",
+      "title": "Enigma del SysAdmin",
+      "type": "event",
+      "desc": "Risolvi il puzzle sul terminale per ottenere i privilegi di root e accedere al rack segreto.",
+      "event": "puzzle_server",
+      "requires": [],
+      "rewards": {
+        "xp": 25,
+        "credits": 120,
+        "oss": 10,
+        "reputation": 7
+      }
+    },
+    {
+      "id": 8,
+      "location": "sala_chat",
+      "title": "Ticket Live Chat",
+      "type": "quiz",
+      "desc": "Un utente chiede: “Quale comando mostra il contenuto di un file in output completo?”",
+      "options": [
+        "cat file.txt",
+        "ls file.txt",
+        "grep file.txt",
+        "top file.txt"
+      ],
+      "answer": 0,
+      "requires": [],
+      "rewards": {
+        "xp": 10,
+        "credits": 50,
+        "oss": 5,
+        "reputation": 2
+      }
+    },
+    {
+      "id": 9,
+      "location": "telefono_fax",
+      "title": "Fax Urgente",
+      "type": "quiz",
+      "desc": "Il cliente vuole inviare un ticket via fax. Quale comando Linux lo invia al dispositivo `fax0`?",
+      "options": [
+        "lpr -P fax0 ticket.txt",
+        "faxsend ticket.txt",
+        "lp -d fax0 ticket.txt",
+        "sendfax ticket.txt"
+      ],
+      "answer": 0,
+      "requires": [],
+      "rewards": {
+        "xp": 11,
+        "credits": 55,
+        "oss": 4,
+        "reputation": 3
+      }
+    },
+    {
+      "id": 10,
+      "location": "sala_email",
+      "title": "Pulizia Inbox",
+      "type": "quiz",
+      "desc": "Lo spam filter è KO. Quale comando rimuove tutte le righe che contengono “Viagra”?",
+      "options": [
+        "grep -v Viagra inbox.txt > clean.txt",
+        "sed '/Viagra/d' inbox.txt",
+        "awk '!/Viagra/' inbox.txt",
+        "tutte e tre le precedenti"
+      ],
+      "answer": 3,
+      "requires": [],
+      "rewards": {
+        "xp": 18,
+        "credits": 80,
+        "oss": 6,
+        "reputation": 4
+      }
+    }
+  ]
+}
