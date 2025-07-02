@@ -53,6 +53,67 @@
       "name": "Modulo Ticket",
       "description": "Cartaceo (sì, proprio di carta) per inoltrare richieste via fax o email. -10% di carbon footprint se riciclato.",
       "usable_in": ["telefono_fax", "sala_email"]
-    }
+    },
+    [
+  {
+    "id": "cavo_ethernet",
+    "name": "Cavo Ethernet Cat6",
+    "description": "Cavo schermato ad alta velocità: perfetto per connessioni stabili e trasferimento dati senza jitter.",
+    "usable_in": ["strada", "ufficio", "data_center", "server_room"]
+  },
+  {
+    "id": "power_bank",
+    "name": "Power Bank da 20 000 mAh",
+    "description": "Banco di energia portatile per ricaricare laptop, smartphone e gadget vari durante le maratone di coding.",
+    "usable_in": ["casa", "strada", "caffè"]
+  },
+  {
+    "id": "raspberry_pi",
+    "name": "Raspberry Pi 4",
+    "description": "Single-board computer per i tuoi progetti open-source: da media center a nodo IoT, tutto in 88x58 mm.",
+    "usable_in": ["casa", "ufficio", "fab_lab"]
+  },
+  {
+    "id": "tester_cavi",
+    "name": "Tester di Cavi",
+    "description": "Strumento essenziale per verificare continuità e pinout di cavi Ethernet e telefonici senza spegnere nulla.",
+    "usable_in": ["strada", "data_center", "telefono_fax"]
+  },
+  {
+    "id": "chiavetta_usb",
+    "name": "Chiavetta USB 64 GB",
+    "description": "Pen drive ultraveloci per trasportare ISO, backup e leak (etici) di repository, tutto sotto chiave crittata.",
+    "usable_in": ["casa", "ufficio", "sala_chat"]
+  },
+  {
+    "id": "multimetro",
+    "name": "Multimetro Digitale",
+    "description": "Misura tensione, corrente e resistenza nei circuiti: ideale per debugging hardware e saldature di precisione.",
+    "usable_in": ["data_center", "fab_lab", "casa"]
+  },
+  {
+    "id": "cavo_hdmi",
+    "name": "Cavo HDMI 2.1",
+    "description": "Cavo ad altissima banda per collegare monitor e TV 4K/8K: porta visiva perfetta per le live‐coding session.",
+    "usable_in": ["ufficio", "casa", "sala_chat"]
+  },
+  {
+    "id": "scheda_rete",
+    "name": "Scheda di Rete PCIe",
+    "description": "NIC gigabit/10 GbE da installare sul server: throughput massimo e CPU‐offload per traffico intenso.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "hub_usb",
+    "name": "Hub USB 7 Porte",
+    "description": "Espandi le tue porte USB in un lampo: collegaci tastiere, dischi esterni e dongle vari senza litigi hardware.",
+    "usable_in": ["ufficio", "casa", "caffè"]
+  },
+  {
+    "id": "adattatore_usb_c",
+    "name": "Adattatore USB-C → USB-A",
+    "description": "Adapter minimal per collegare periferiche legacy a porte moderne: piccolo ma indispensabile per il retro‐tech.",
+    "usable_in": ["casa", "ufficio", "data_center"]
+  }
   ]
 }
