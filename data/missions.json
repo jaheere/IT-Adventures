@@ -684,7 +684,165 @@
       "reputation": 2
     }
   },
-    
+  {
+    "id": 39,
+    "location": "strada",
+    "title": "Porta DNS",
+    "type": "quiz",
+    "desc": "Tra un cavo e l'altro: quale porta TCP/UDP usa il protocollo DNS di default?",
+    "options": ["53", "80", "443", "25"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 30,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 40,
+    "location": "ufficio",
+    "title": "Ricorsione con grep",
+    "type": "quiz",
+    "desc": "Il tuo collega vuole cercare in tutte le sottocartelle: quale flag di grep abilita la ricerca ricorsiva?",
+    "options": ["-i", "-r", "-v", "-n"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 35,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 41,
+    "location": "casa",
+    "title": "Pacchetto Debian",
+    "type": "quiz",
+    "desc": "Su Debian/Ubuntu quale comando moderno installa un pacchetto da apt-get?",
+    "options": ["apt-get install foo", "apt install foo", "dpkg -i foo.deb", "yum install foo"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 42,
+    "location": "casa",
+    "title": "Il Laptop Perduto",
+    "type": "fetch",
+    "desc": "Hai lasciato il portatile da sudo in giro per casa: recuperalo e portalo nel covo nerd.",
+    "item": "portatile",
+    "requires": [],
+    "rewards": {
+      "xp": 12,
+      "credits": 60,
+      "oss": 2,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 43,
+    "location": "data_center",
+    "title": "Bus PCI",
+    "type": "quiz",
+    "desc": "Devi controllare le schede PCI installate: quale comando usi?",
+    "options": ["lspci", "lsusb", "dmidecode", "lsblk"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 70,
+      "oss": 5,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 44,
+    "location": "caffè",
+    "title": "File System Winner",
+    "type": "quiz",
+    "desc": "Discuti da vero geek: quale file system Linux journaling è oggi il più diffuso?",
+    "options": ["ext3", "ext4", "btrfs", "xfs"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 8,
+      "credits": 40,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 45,
+    "location": "sala_chat",
+    "title": "Numeri di Riga",
+    "type": "quiz",
+    "desc": "Un utente chiede come aggiungere numeri di riga a un file di testo: quale comando?",
+    "options": ["wc -l", "nl file.txt", "grep -n", "awk '{print NR}'"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 9,
+      "credits": 45,
+      "oss": 3,
+      "reputation": 1
+    }
+  },
+  {
+    "id": 46,
+    "location": "sala_chat",
+    "title": "Log in Real Time",
+    "type": "quiz",
+    "desc": "Il server sta andando giù: quale comando ti permette di seguire un log in tempo reale?",
+    "options": ["cat server.log", "tail -f server.log", "head server.log", "less server.log"],
+    "answer": 1,
+    "requires": [],
+    "rewards": {
+      "xp": 10,
+      "credits": 50,
+      "oss": 4,
+      "reputation": 2
+    }
+  },
+  {
+    "id": 47,
+    "location": "abitazione_cliente",
+    "title": "Formattazione Vintage",
+    "type": "quiz",
+    "desc": "Devi formattare il floppy disk del cliente: quale comando usi?",
+    "options": ["mkfs.vfat /dev/fd0", "format a:", "dd if=/dev/zero of=/dev/fd0", "mkfs.ext2 /dev/fd0"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 12,
+      "credits": 60,
+      "oss": 0,
+      "reputation": 3
+    }
+  },
+  {
+    "id": 48,
+    "location": "data_center",
+    "title": "Sensori Hardware",
+    "type": "quiz",
+    "desc": "Controlli la temperatura con lm-sensors: quale comando mostra le letture?",
+    "options": ["sensors", "hddtemp", "top", "vmstat"],
+    "answer": 0,
+    "requires": [],
+    "rewards": {
+      "xp": 11,
+      "credits": 65,
+      "oss": 5,
+      "reputation": 2
+    }
+  }  
     
   ]
 }
