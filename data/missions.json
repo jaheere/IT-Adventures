@@ -842,7 +842,111 @@
       "oss": 5,
       "reputation": 2
     }
-  }  
-    
+  },
+  {
+    "id": 49,
+    "location": "market",
+    "title": "Firmware Ribelle",
+    "type": "quiz",
+    "desc": "Il venditore ti chiede: quale strumento flasha firmware su chip embedded (es. ESP32)?",
+    "options": ["dd", "flashrom", "lsusb", "udevadm"],
+    "answer": 1,
+    "rewards": { "xp": 11, "credits": 55, "oss": 4, "reputation": 2 }
+  },
+  {
+    "id": 50,
+    "location": "ufficio",
+    "title": "PID Detect",
+    "type": "quiz",
+    "desc": "Devi trovare il PID di un processo chiamato `nginx`. Quale comando è più adatto?",
+    "options": ["pidof nginx", "top", "ps aux | grep nginx", "kill -l"],
+    "answer": 0,
+    "rewards": { "xp": 9, "credits": 45, "oss": 3, "reputation": 2 }
+  },
+  {
+    "id": 51,
+    "location": "strada",
+    "title": "Git Pull Antipanico",
+    "type": "quiz",
+    "desc": "Un dev urla: 'Ho bisogno dell’ultima versione del repo!' Qual è il comando corretto?",
+    "options": ["git fetch", "git pull", "git clone", "git merge"],
+    "answer": 1,
+    "rewards": { "xp": 8, "credits": 40, "oss": 3, "reputation": 1 }
+  },
+  {
+    "id": 52,
+    "location": "caffè",
+    "title": "Espresso + Vim",
+    "type": "quiz",
+    "desc": "Quale tasto digiti per uscire da Vim (senza versare caffè sul laptop)?",
+    "options": ["Esc :q", ":exit", ":wq", "Ctrl+C"],
+    "answer": 2,
+    "rewards": { "xp": 10, "credits": 50, "oss": 5, "reputation": 2 }
+  },
+  {
+    "id": 53,
+    "location": "sala_email",
+    "title": "Email Header Hunter",
+    "type": "quiz",
+    "desc": "Quale campo in un’email indica l’oggetto del messaggio?",
+    "options": ["Subject:", "From:", "To:", "Reply-To:"],
+    "answer": 0,
+    "rewards": { "xp": 7, "credits": 35, "oss": 2, "reputation": 1 }
+  },
+  {
+    "id": 54,
+    "location": "telefono_fax",
+    "title": "FAX ASCII MODE",
+    "type": "quiz",
+    "desc": "Per evitare problemi nei fax, quale formato testuale è più adatto?",
+    "options": ["UTF-8", "Base64", "ASCII puro", "Markdown"],
+    "answer": 2,
+    "rewards": { "xp": 8, "credits": 40, "oss": 2, "reputation": 1 }
+  },
+  {
+    "id": 55,
+    "location": "server_room",
+    "title": "Hostname Hysteria",
+    "type": "quiz",
+    "desc": "Quale comando restituisce il nome della macchina Linux corrente?",
+    "options": ["hostname", "uname -n", "whoami", "ls /etc/hostname"],
+    "answer": 0,
+    "rewards": { "xp": 10, "credits": 45, "oss": 3, "reputation": 2 }
+  },
+  {
+    "id": 56,
+    "location": "casa",
+    "title": "Syslog Scouting",
+    "type": "quiz",
+    "desc": "Vuoi leggere i log generali del sistema: dove vai a guardare?",
+    "options": ["/var/syslog", "/var/log/syslog", "/etc/syslog.conf", "/var/log/messages"],
+    "answer": 1,
+    "rewards": { "xp": 12, "credits": 55, "oss": 4, "reputation": 2 }
+  },
+  {
+    "id": 57,
+    "location": "data_center",
+    "title": "Driver Scomparsi",
+    "type": "quiz",
+    "desc": "Quale comando mostra i moduli del kernel attualmente caricati?",
+    "options": ["modinfo", "lsmod", "depmod", "insmod"],
+    "answer": 1,
+    "rewards": { "xp": 11, "credits": 60, "oss": 5, "reputation": 3 }
+  },
+  {
+    "id": 58,
+    "location": "market",
+    "title": "Termini GNU-logici",
+    "type": "quiz",
+    "desc": "Secondo la Free Software Foundation, 'libero' si riferisce a…",
+    "options": [
+      "Gratis, come una birra",
+      "Accesso al codice sorgente",
+      "Libertà di eseguire, studiare, modificare, distribuire",
+      "Licenza MIT"
+    ],
+    "answer": 2,
+    "rewards": { "xp": 10, "credits": 50, "oss": 6, "reputation": 4 }
+  }      
   ]
 }
