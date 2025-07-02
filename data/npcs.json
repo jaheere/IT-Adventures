@@ -136,6 +136,182 @@
           ]
         }
       ]
-    }
+    },
+    {
+    "id": "netguru",
+    "name": "Nina la Network Guru",
+    "location": "strada",
+    "intro": "“Tra un cavo e l’altro: sai quale porta TCP usa HTTP per default?”",
+    "quest_id": 11,
+    "dialogue": [
+      {
+        "line": "Guru: ‘Quale porta TCP usa HTTP per default?’",
+        "options": [
+          { "text": "80",  "correct": true  },
+          { "text": "443", "correct": false },
+          { "text": "22",  "correct": false },
+          { "text": "53",  "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mem_assistente",
+    "name": "Stefano l’Assistente RAM",
+    "location": "market",
+    "intro": "“Ciao Luca! Ti serve uno stick di RAM o preferisci un gadget RGB?”",
+    "quest_id": 12,
+    "dialogue": [
+      {
+        "line": "Assistente: ‘Stick di RAM puro o solo luce RGB?’",
+        "options": [
+          { "text": "Prendo lo stick di RAM, grazie!", "correct": true  },
+          { "text": "Magari solo un bel LED RGB…",     "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "junior_admin",
+    "name": "Matteo il Junior Admin",
+    "location": "ufficio",
+    "intro": "“Sto clonando un disco per backup, ma qual è il comando bit-for-bit?”",
+    "quest_id": 13,
+    "dialogue": [
+      {
+        "line": "Admin: ‘Quale comando esegue copia raw bit-for-bit?’",
+        "options": [
+          { "text": "dd if=/dev/sda of=/dev/sdb", "correct": true  },
+          { "text": "cp /dev/sda /dev/sdb",       "correct": false },
+          { "text": "tar -cf backup.tar /dev/sda", "correct": false },
+          { "text": "partimage /dev/sda /dev/sdb","correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "roommate",
+    "name": "Sara la Coinquilina",
+    "location": "casa",
+    "intro": "“La tua crontab è sotto tono: serve un ritocco mattutino?”",
+    "quest_id": 14,
+    "dialogue": [
+      {
+        "line": "Coinquilina: ‘Quale comando usi per editare il crontab utente?’",
+        "options": [
+          { "text": "crontab -e",      "correct": true  },
+          { "text": "cronedit",        "correct": false },
+          { "text": "vim /etc/crontab","correct": false },
+          { "text": "edit cron",       "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dc_operator",
+    "name": "Marco l’Operatore DC",
+    "location": "data_center",
+    "intro": "“La CPU sale alle stelle: quale tool la mostra in tempo reale?”",
+    "quest_id": 15,
+    "dialogue": [
+      {
+        "line": "Operatore: ‘Quale comando ti mostra l’utilizzo CPU live?’",
+        "options": [
+          { "text": "top",  "correct": true  },
+          { "text": "htop", "correct": false },
+          { "text": "perf", "correct": false },
+          { "text": "sar",  "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wifi_barista",
+    "name": "Alice la Barista Tech",
+    "location": "caffè",
+    "intro": "“Qui il Wi-Fi è da museo: sai quale protocollo è ormai obsoleto?”",
+    "quest_id": 16,
+    "dialogue": [
+      {
+        "line": "Barista: ‘Quale protocollo wireless è ormai insicuro?’",
+        "options": [
+          { "text": "WEP",  "correct": true  },
+          { "text": "WPA2", "correct": false },
+          { "text": "WPA3", "correct": false },
+          { "text": "Open", "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "email_tech",
+    "name": "Giulia l’Email Tech",
+    "location": "sala_email",
+    "intro": "“Ho bisogno di inviare un’email dalla shell, mi dai una mano?”",
+    "quest_id": 17,
+    "dialogue": [
+      {
+        "line": "Tech: ‘Quale comando base invia un’email dalla shell con oggetto?’",
+        "options": [
+          { "text": "sendmail",             "correct": false },
+          { "text": "mail -s \"oggetto\"",  "correct": true  },
+          { "text": "mutt -s",              "correct": false },
+          { "text": "smtp-cli",             "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ssh_master",
+    "name": "Francesco l’SSH Master",
+    "location": "ufficio",
+    "intro": "“Per uscire da SSH senza drammi, serve il comando giusto.”",
+    "quest_id": 18,
+    "dialogue": [
+      {
+        "line": "Master: ‘Quale comando usi per terminare una sessione SSH?’",
+        "options": [
+          { "text": "logout",      "correct": false },
+          { "text": "exit",        "correct": false },
+          { "text": "Ctrl+D",      "correct": false },
+          { "text": "tutte e tre", "correct": true  }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https_specialist",
+    "name": "Veronica la Sicurezza",
+    "location": "strada",
+    "intro": "“Hai chiuso la porta giusta per il traffico cifrato?”",
+    "quest_id": 19,
+    "dialogue": [
+      {
+        "line": "Sicurezza: ‘Quale porta TCP usa HTTPS per default?’",
+        "options": [
+          { "text": "443", "correct": true  },
+          { "text": "80",  "correct": false },
+          { "text": "53",  "correct": false },
+          { "text": "22",  "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ram_vendor",
+    "name": "Luca il Venditore RAM",
+    "location": "ufficio",
+    "intro": "“Hai bisogno di un upgrade di memoria? Ho stick freschi!”",
+    "quest_id": 20,
+    "dialogue": [
+      {
+        "line": "Venditore: ‘Stick di RAM o un power bank per emergenze?’",
+        "options": [
+          { "text": "Prendo uno stick di RAM, grazie!", "correct": true  },
+          { "text": "Magari un power bank…",          "correct": false }
+        ]
+      }
+    ]
+  }
   ]
 }
