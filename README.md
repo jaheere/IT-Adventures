@@ -1,14 +1,10 @@
-# IT Adventures – Nerdstown Chronicles
-#### Author: Bocaletto Luca
-#### OS: Linux
+# IT Adventures – Nerdstown Chronicles  
+#### Author: Luca Bocaletto  
+#### OS: Linux  
 
-Un’avventura testuale comica e tecnica in puro stile open source
+**A comedic, tech-heavy text adventure in pure open-source style**  
 
-In IT Adventures vestirai i panni di Luca, un informatico smaliziato con la passione per il kernel e il sarcasmo da riga di comando. La tua missione è esplorare Nerdstown, una metropoli al neon dove i cavi Ethernet crescono come liane in una giungla cyberpunk: dal caos ordinato della tua “Casa di Luca” – un covo pieno di monitor impilati, sticker Linux e un gatto programmatore –, all’ordine maniacale di TechCorp, fino ai rifugi calorosi del Bean Overclock Café e ai meandri meccanici del Data Center.
-
-Mentre ti muovi tra stanze disegnate con l’ironia degli admin nottambuli, affronterai quiz studiati per mettere alla prova la tua conoscenza di comandi Linux, protocolli di rete e best practice open source. Ogni risposta esatta ti premia con XP e aumenta la tua reputazione nella comunità, sbloccando accessi “sudo” a aree riservate e rivelando scorci nascosti del mondo. Ma non è solo teoria: dovrai riparare hardware guasto, utilizzare kit di saldatura, consegnare oggetti chiave e persino contrattare con NPC dalle personalità stravaganti, dai venditori di RAM RGB ai guru del ping perfetto.
-
-Tra un “kernel panic” e una battuta sul multitasking a 16 thread, guadagnerai crediti da spendere in potenziamenti – power bank, stick di RAM, microcontrollori Raspberry Pi – e in token open source che testimoniano il tuo impegno per la condivisione del sapere. Il gioco ti coinvolge con eventi imprevedibili (blackout, attacchi DDoS, quiz retrò) e side-quest che premiano l’esplorazione più curiosa. Preparati a un’esperienza che unisce la sfida tecnica di un lab di sysadmin con l’umorismo nerd più spinto: benvenuto in IT Adventures, dove l’open source è l’unica regola.
+You step into the shoes of Luca, a savvy sysadmin roaming Nerdstown’s neon streets—from your hacker den to the open-space office, the Bean Overclock Café, and the humming data center. Along the way you’ll tackle Linux quizzes, repair broken hardware, assist quirky clients, and earn XP, credits and open-source reputation.
 
 <p align="center">
   <a href="./index.html">
@@ -21,58 +17,58 @@ Tra un “kernel panic” e una battuta sul multitasking a 16 thread, guadagnera
 
 ---
 
-## 📁 Struttura del progetto
+## 📁 Project Structure
 
 ```
 it-adventures/
-├── data/                # Contenuti di gioco (modificabili)
-│   ├── world.json       # Stanze, descrizioni, uscite, eventi
-│   ├── missions.json    # Elenco missioni (quiz, fetch, event)
-│   ├── items.json       # Oggetti, descrizioni, contesti d’uso
-│   └── npcs.json        # NPC, dialoghi, side-quests
+├── data/                # Game content (editable)
+│   ├── world.json       # Rooms, descriptions, exits, events
+│   ├── missions.json    # Missions list (quiz, fetch, event)
+│   ├── items.json       # Items, descriptions, usable contexts
+│   └── npcs.json        # NPCs, dialogues, side-quests
 │
-├── save.json            # Salvataggio automatico
+├── save.json            # Auto-save state
 │
 ├── src/                 
-│   ├── data.py          # Caricamento/salvataggio dati, stato di gioco
-│   ├── ui.py            # Rendering a colori con Rich (HUD, stanze, tabelle)
-│   ├── engine.py        # Menu iniziale e loop principale
-│   ├── quests.py        # Logica di missioni (quiz, fetch, eventi)
-│   └── npcs.py          # Dialoghi NPC e interazioni
+│   ├── data.py          # Load/save data, game state
+│   ├── ui.py            # Colorful rendering with Rich (HUD, rooms, tables)
+│   ├── engine.py        # Main menu and game loop
+│   ├── quests.py        # Mission logic (quiz, fetch, events)
+│   └── npcs.py          # NPC dialogues and interactions
 │
-├── requirements.txt     # `rich`  
-├── Dockerfile           # Container minimal  
+├── requirements.txt     # Dependencies (rich)  
+├── Dockerfile           # Minimal container  
 ├── .gitignore           
-└── README.md            # Questo file  
+└── README.md            # This file  
 ```
 
 ---
 
-## 🚀 Installazione e avvio
+## 🚀 Installation & Launch
 
-1. **Clona il repository**  
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/bocaletto-luca/IT-Adventures.git
-   cd it-adventures
+   cd IT-Adventures
    ```
 
-2. **Crea un ambiente virtuale (opzionale ma consigliato)**  
+2. **Create a virtual environment (recommended)**  
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
 
-3. **Installa le dipendenze**  
+3. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Avvia il gioco**  
+4. **Start the game**  
    ```bash
    python3 src/engine.py
    ```
 
-5. **In Docker**  
+5. **Using Docker**  
    ```bash
    docker build -t it-adventures .
    docker run -it it-adventures
@@ -80,72 +76,62 @@ it-adventures/
 
 ---
 
-## 🎮 Comandi principali
+## 🎮 Main Commands
 
-### Menu iniziale  
-- `1` Nuova partita  
-- `2` Carica partita  
-- `3` Salva partita  
-- `4` Aiuto  
-- `5` Esci  
+### Main Menu  
+- `1` New Game  
+- `2` Load Game  
+- `3` Save Game  
+- `4` Help  
+- `5` Exit  
 
-### In gioco  
-- `vai <direzione>` (es. `vai nord`)  
-- `prendi <oggetto>` (es. `prendi kit_saldatura`)  
-- `usa <oggetto>` (se supportato)  
-- `inventario` / `inv`  
-- `missioni`  
-- `inizia <id>` (avvia missione)  
-- `parla <npc_id>` (dialoga con NPC)  
-- `stato` (mostra HUD)  
-- `guarda`  
-- `salva`  
-- `esci` (torna al menu o esci)
-
----
-
-## 🌟 Caratteristiche chiave
-
-- **Comico & Tecnico**: battute su Linux, sysadmin, open-source, “sudo”, “root”, “bug”, “RAM-RGB”  
-- **Missioni ramificate**: quiz Linux, fetch item, puzzle sysadmin  
-- **Side-Quests con NPC**: dialoghi umoristici, reputazione, badge  
-- **HUD dinamico**: livelli, XP, crediti, OSS, reputazione sempre visibili  
-- **Modulare**: aggiungi stanze, missioni, NPC o oggetti editando i JSON in `data/`  
+### In-Game  
+- `go <direction>` (e.g. `go north`)  
+- `take <item>` (e.g. `take kit_soldering`)  
+- `use <item>` (when supported)  
+- `inventory` / `inv`  
+- `missions`  
+- `start <id>` (start a mission)  
+- `talk <npc_id>` (interact with NPC)  
+- `status` (show HUD)  
+- `look`  
+- `save`  
+- `exit` (return to menu or quit)
 
 ---
 
-💡 Consigli di Gioco
+## 🌟 Key Features
 
-    Esplora ovunque: molte missioni side-quest sono nascoste in stanze secondarie.
-
-    Usa l’inventario: alcuni oggetti servono per sbloccare aree (credenziali, token GPU, power bank).
-
-    Parla con tutti: gli NPC spesso rilasciano missioni nascoste o bonus reputazione.
-
-    Ricarica e salva spesso: eventi come blackout e DDoS possono far perdere crediti o reputazione.
-
----    
-
-## 🔧 Come estendere
-
-- **Aggiungi nuove stanze**  
-  Modifica `data/world.json` con oggetti, uscite, eventi.
-
-- **Crea missioni**  
-  Amplia `data/missions.json`: supporta tipi `quiz`, `fetch`, `event`.
-
-- **Nuovi NPC**  
-  Definisci dialoghi e side-quests in `data/npcs.json`.
-
-- **Personalizza HUD**  
-  Aggiorna `src/ui.py` per colori, layout e ascii art.
+- **Comic & Technical**: witty lines about Linux, sysadmin life, open-source culture, “sudo”, “root”, “bugs”, “RGB RAM.”  
+- **Branching Missions**: Linux quizzes, fetch quests, sysadmin puzzles.  
+- **NPC Side-Quests**: humorous dialogues, reputation gains, collectible badges.  
+- **Dynamic HUD**: levels, XP, credits, OSS tokens and reputation always visible.  
+- **Modular Design**: add rooms, missions, NPCs or items simply by editing the JSON files in `data/`.
 
 ---
 
-## 📜 Licenza
+## 🔧 How to Extend
 
-Distribuito sotto **GNU GPL v3**. Vedi `LICENSE` per dettagli.
+- **Add New Rooms**  
+  Edit `data/world.json` to define titles, descriptions, exits, items and optional events.
+
+- **Create Missions**  
+  Expand `data/missions.json` with types `quiz`, `fetch` or `event`, specifying prompts, options and rewards.
+
+- **Define NPCs**  
+  Add dialogues and side-quests in `data/npcs.json`, complete with intros, dialogue trees and rewards.
+
+- **Customize the HUD**  
+  Tweak `src/ui.py` to change colors, layout or ASCII art.
 
 ---
 
-Grazie per aver scelto IT Adventures! Preparati a ridere, imparare e celebrare il potere dell’open source in un’avventura testuale senza eguali. Buon divertimento!
+## 📜 License
+
+Distributed under **GNU GPL v3**. See `LICENSE` for details.
+
+---
+
+Thank you for choosing **IT Adventures**! Get ready to laugh, learn, and celebrate the power of open source in an unparalleled text-based journey. Have fun!  
+
+---
