@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# virtualenv
+env/
+venv/
+
+# dati utente
+save.json
+
+# editor/IDE
+.vscode/
+.idea/
+*.swp
