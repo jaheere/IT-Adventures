@@ -37,7 +37,7 @@ it-adventures/
 
 1. **Clona il repository**  
    ```bash
-   git clone https://tuo-repo/it-adventures.git
+   git clone https://github.com/bocaletto-luca/IT-Adventures.git
    cd it-adventures
    ```
 
