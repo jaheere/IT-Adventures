@@ -175,6 +175,66 @@
     "name": "Microfono USB da Streaming",
     "description": "Microfono cardioide plug-and-play: perfetto per chat di team, podcast e live-coding.",
     "usable_in": ["casa", "ufficio", "sala_chat"]
+  },
+  {
+    "id": "mouse_rgb",
+    "name": "Mouse RGB Gaming",
+    "description": "Mouse da gaming con cinque pulsanti programmabili e LED RGB sincronizzabili con il resto della postazione.",
+    "usable_in": ["casa", "ufficio", "sala_chat"]
+  },
+  {
+    "id": "tastiera_ergonomica",
+    "name": "Tastiera Ergonomica Split",
+    "description": "Tastiera divisa in due ali inclinate, progettata per ridurre tensioni al polso durante lunghe sessioni di coding.",
+    "usable_in": ["casa", "ufficio"]
+  },
+  {
+    "id": "ssd_nvme",
+    "name": "SSD NVMe 1 TB",
+    "description": "Unità di storage ultrarapida con interfaccia M.2 NVMe: tempi di caricamento ridotti e swap quasi inesistente.",
+    "usable_in": ["casa", "ufficio", "data_center"]
+  },
+  {
+    "id": "case_pc",
+    "name": "Case PC Mid-Tower",
+    "description": "Case in acciaio e vetro temperato, con supporto per ventole multiple e gestione cavi integrata.",
+    "usable_in": ["fab_lab", "data_center"]
+  },
+  {
+    "id": "rack_19u",
+    "name": "Rack 19\" 12U",
+    "description": "Rack standard per montaggio server e switch, robusto e con ruote per muoverlo agevolmente.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "ups",
+    "name": "UPS 1500 VA",
+    "description": "Gruppo di continuità per mantenere alimentati server e workstation durante micro blackout e sbalzi di tensione.",
+    "usable_in": ["data_center", "server_room", "ufficio"]
+  },
+  {
+    "id": "hub_hdmi",
+    "name": "Hub HDMI 4 Porte",
+    "description": "Splitter HDMI per duplicare il segnale su più monitor, ideale per presentazioni e configurazioni multi‐display.",
+    "usable_in": ["ufficio", "casa", "sala_chat"]
+  },
+  {
+    "id": "scheda_audio",
+    "name": "Scheda Audio USB 7.1",
+    "description": "Audio da studio con supporto surround: perfetta per videochiamate e mix di podcast registrati in ufficio.",
+    "usable_in": ["casa", "ufficio", "sala_chat"]
+  },
+  {
+    "id": "webcam_1080p",
+    "name": "Webcam Full HD 1080p",
+    "description": "Webcam con autofocus e microfono integrato: la scelta ideale per stream, call e live‐coding di qualità.",
+    "usable_in": ["casa", "ufficio", "sala_chat"]
+  },
+  {
+    "id": "speaker_bluetooth",
+    "name": "Speaker Bluetooth Portatile",
+    "description": "Cassa wireless resistente all’acqua per ascoltare musica o notifiche sonore anche in area esterna o laboratorio.",
+    "usable_in": ["casa", "caffè", "fab_lab"]
   }  
   ]
 }
