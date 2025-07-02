@@ -114,6 +114,18 @@ it-adventures/
 
 ---
 
+💡 Consigli di Gioco
+
+    Esplora ovunque: molte missioni side-quest sono nascoste in stanze secondarie.
+
+    Usa l’inventario: alcuni oggetti servono per sbloccare aree (credenziali, token GPU, power bank).
+
+    Parla con tutti: gli NPC spesso rilasciano missioni nascoste o bonus reputazione.
+
+    Ricarica e salva spesso: eventi come blackout e DDoS possono far perdere crediti o reputazione.
+
+---    
+
 ## 🔧 Come estendere
 
 - **Aggiungi nuove stanze**  
