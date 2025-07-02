@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IT-Adventures: A Terminal-Based Cyberpunk RPG</title>
-  <meta name="description" content="IT-Adventures is a JSON-driven, terminal-style RPG where you explore cyberpunk locations, solve sysadmin puzzles, collect items and level up your hacker persona.">
-  <meta name="keywords" content="IT-Adventures, cyberpunk RPG, terminal game, open source, hacking, system administration, interactive fiction, JSON">
+  <title>IT-Adventures: RPG Cyberpunk in Stile Terminale</title>
+  <meta name="description" content="IT-Adventures è un RPG ispirato al terminale in cui esplori ambientazioni cyberpunk, risolvi quiz da sysadmin, raccogli oggetti e sali di livello come hacker.">
+  <meta name="keywords" content="IT-Adventures, RPG terminale, cyberpunk, open source, hacking, amministrazione di sistema, narrativa interattiva, JSON">
   <meta name="author" content="Luca Bocaletto">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,98 +14,98 @@
 <body>
   <header>
     <h1>IT-Adventures</h1>
-    <p>A terminal-inspired cyberpunk RPG powered by JSON files and your command line.</p>
+    <p>Un RPG cyberpunk ispirato al terminale, alimentato da semplici file JSON.</p>
   </header>
 
   <main>
-    <section id="overview">
-      <h2>Overview</h2>
-      <p>IT-Adventures thrusts you into the neon-lit world of Nerdstown, where every corridor is lined with humming servers and every café serves “Espresso at 5 GHz.”  
-      You begin in your hacker den, armed only with a laptop and your wits.  Explore diverse locations—from the open-space at TechCorp to the secret AI Lab—solve quizzes and fetch missions, collect upgrade items, earn reputation and credits, and become the ultimate sysadmin hero.</p>
+    <section id="panoramica">
+      <h2>Panoramica</h2>
+      <p>Benvenuto a Nerdstown, una metropoli fluo dove i corridoi sono zeppi di server ronzanti e nei café si serve “Espresso a 5 GHz”. Parti dal tuo covo nerd con un laptop e tanta determinazione. Esplora luoghi come l’open-space di TechCorp o il misterioso AI Lab, affronta quiz e missioni di recupero, colleziona strumenti, guadagna crediti e reputazione e diventa il sysadmin definitivo.</p>
     </section>
 
-    <section id="features">
-      <h2>Key Features</h2>
+    <section id="caratteristiche">
+      <h2>Caratteristiche Principali</h2>
       <ul>
-        <li>Modular, JSON-driven world: rooms, items, missions and events are defined in simple JSON files.</li>
-        <li>Terminal interface: interact via familiar commands (e.g., <code>go north</code>, <code>take</code>, <code>missions</code>).</li>
-        <li>Dynamic puzzles and quizzes: test your knowledge of networking, Linux commands, scripting and open-source lore.</li>
-        <li>Collectible items: upgrade your gear with RAM sticks, soldering kits, power banks and more.</li>
-        <li>Non-player characters (NPCs): trade, challenge and unlock special rewards by engaging with in-world characters.</li>
-        <li>Event system: scheduled and on-enter triggers (DDoS alerts, power blackouts, retro quizzes) keep you on your toes.</li>
+        <li>Mondo modulare definito in JSON: stanze, oggetti, missioni ed eventi sono facili da modificare.</li>
+        <li>Interfaccia terminale: comandi familiari (<code>go north</code>, <code>take</code>, <code>missions</code>).</li>
+        <li>Quiz dinamici su networking, comandi Linux, scripting e cultura open source.</li>
+        <li>Oggetti collezionabili: potenzia la tua postazione con RAM, saldatrici, power bank e molto altro.</li>
+        <li>NPC interattivi: scambia, sfida e sblocca ricompense parlando con i personaggi del mondo.</li>
+        <li>Sistema di eventi: blackout, attacchi DDoS, quiz retrò e trappole imprevedibili.</li>
       </ul>
     </section>
 
-    <section id="installation">
-      <h2>Installation</h2>
+    <section id="installazione">
+      <h2>Installazione</h2>
       <ol>
-        <li>Clone the repository:<br>
+        <li>Clona il repository:<br>
           <code>git clone https://github.com/bocaletto-luca/IT-Adventures.git</code>
         </li>
-        <li>Enter the project directory:<br>
+        <li>Accedi alla cartella di progetto:<br>
           <code>cd IT-Adventures</code>
         </li>
-        <li>Ensure you have Python 3.7+ installed.</li>
-        <li>Install any dependencies (if provided):<br>
-          <code>pip install -r requirements.txt</code></li>
+        <li>Verifica di avere Python 3.7+ installato.</li>
+        <li>Eventuali dipendenze (opzionali):<br>
+          <code>pip install -r requirements.txt</code>
+        </li>
       </ol>
     </section>
 
-    <section id="usage">
-      <h2>Usage</h2>
-      <p>Launch the game with:</p>
+    <section id="utilizzo">
+      <h2>Utilizzo</h2>
+      <p>Avvia il gioco con:</p>
       <pre><code>python3 game.py</code></pre>
-      <p>In the terminal prompt, use commands like:</p>
+      <p>Usa comandi come:</p>
       <ul>
-        <li><code>look</code>: reprint the current room description</li>
-        <li><code>go &lt;direction&gt;</code>: move north, south, east, west, etc.</li>
-        <li><code>take &lt;item&gt;</code>: pick up an item</li>
-        <li><code>inventory</code>: review collected items</li>
-        <li><code>missions</code>: list and start available missions</li>
-        <li><code>use &lt;item&gt;</code>: apply an item in the current room</li>
+        <li><code>look</code>: mostra la descrizione della stanza corrente</li>
+        <li><code>go &lt;direzione&gt;</code>: spostati (nord, sud, est, ovest…)</li>
+        <li><code>take &lt;oggetto&gt;</code>: raccogli un oggetto</li>
+        <li><code>inventory</code>: visualizza gli oggetti in possesso</li>
+        <li><code>missions</code>: elenca e avvia le missioni disponibili</li>
+        <li><code>use &lt;oggetto&gt;</code>: utilizza un oggetto nella stanza</li>
       </ul>
     </section>
 
     <section id="gameplay">
-      <h2>Gameplay Details</h2>
-      <p>As you travel through rooms, you’ll encounter mission prompts:</p>
+      <h2>Dettagli di Gioco</h2>
+      <p>Durante l’esplorazione incontrerai:</p>
       <ul>
-        <li><strong>Quiz missions</strong> test your command-line knowledge (e.g., port numbers, grep flags, shebangs).</li>
-        <li><strong>Fetch missions</strong> require you to locate and deliver items placed in specific rooms.</li>
-        <li><strong>Event puzzles</strong> trigger on entry or on schedule (blackouts, DDoS alerts, retro quizzes).</li>
+        <li><strong>Missioni quiz</strong> che mettono alla prova le tue conoscenze da sysadmin (es. porte di rete, flag di grep, shebang).</li>
+        <li><strong>Missioni fetch</strong> per recuperare e consegnare oggetti all’interno delle stanze.</li>
+        <li><strong>Eventi puzzle</strong> che scattano all’ingresso o a orari prestabiliti (blackout, allerta DDoS, quiz storico).</li>
       </ul>
-      <p>Completing missions rewards you with experience points, in-game credits, open-source tokens and reputation. Level up and unlock 'sudo' privileges to access restricted areas.</p>
+      <p>Completando missioni ottieni esperienza, crediti di gioco, token open source e reputazione. Salendo di livello sblocchi privilegi “sudo” per accedere ad aree riservate.</p>
     </section>
 
-    <section id="configuration">
-      <h2>Customization & Extensions</h2>
-      <p>All game content lives in the <code>data/</code> folder.  You can:</p>
+    <section id="configurazione">
+      <h2>Personalizzazione</h2>
+      <p>Tutto il contenuto di gioco risiede nella cartella <code>data/</code>. Puoi:</p>
       <ul>
-        <li>Add or modify <code>rooms.json</code>, <code>items.json</code>, <code>missions.json</code> and <code>npcs.json</code>.</li>
-        <li>Define new events in <code>events.json</code> and hook them into rooms with the <code>event</code> field.</li>
-        <li>Tweak rewards, difficulty and prerequisites directly in JSON to tailor your own adventure.</li>
-      </ul>
-    </section>
-
-    <section id="contributing">
-      <h2>Contributing</h2>
-      <p>Contributions are welcomed!  Please:</p>
-      <ul>
-        <li>Fork the repository</li>
-        <li>Create a topic branch for your feature or fix</li>
-        <li>Submit a pull request with clear descriptions</li>
-        <li>Ensure JSON files remain valid (use <code>jsonlint</code> or a similar tool)</li>
+        <li>Modificare <code>rooms.json</code>, <code>items.json</code>, <code>missions.json</code> e <code>npcs.json</code>.</li>
+        <li>Aggiungere nuovi eventi in <code>events.json</code> e assegnarli alle stanze.</li>
+        <li>Regolare ricompense, difficoltà e prerequisiti direttamente nei file JSON.</li>
       </ul>
     </section>
 
-    <section id="license">
-      <h2>License</h2>
-      <p>This project is released under the MIT License.  See <code>LICENSE</code> for details.</p>
+    <section id="contribuire">
+      <h2>Contribuire</h2>
+      <p>Ogni contributo è benvenuto! Per favore:</p>
+      <ul>
+        <li>Fai un fork del repository</li>
+        <li>Crea un branch per la tua feature o correzione</li>
+        <li>Apri una pull request descrittiva</li>
+        <li>Controlla la validità dei JSON con <code>jsonlint</code> o simili</li>
+      </ul>
+    </section>
+
+    <section id="licenza">
+      <h2>Licenza</h2>
+      <p>Questo progetto è rilasciato sotto licenza MIT. Consulta il file <code>LICENSE</code> per i dettagli.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Luca Bocaletto • <a href="https://github.com/bocaletto-luca/IT-Adventures">GitHub Repository</a></p>
+    <p>&copy; 2025 Luca Bocaletto • <a href="https://github.com/bocaletto-luca/IT-Adventures">Repository su GitHub</a></p>
   </footer>
 </body>
 </html>
