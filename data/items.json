@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "portatile",
+      "name": "Portatile da Sudo",
+      "description": "Il tuo laptop supercaricato: sticker Linux, tastiera meccanica e un LED arcobaleno per farti sentire hacker.",
+      "usable_in": ["casa", "ufficio", "data_center", "server_room", "sala_chat", "sala_email"]
+    },
+    {
+      "id": "tazza_caffè",
+      "name": "Tazza di Caffè",
+      "description": "Essenza liquida della produttività. Ogni sorso ti dà +10% di velocità mentale (e +5% di battute sarcastiche).",
+      "usable_in": ["casa", "ufficio", "data_center", "server_room", "caffè"]
+    },
+    {
+      "id": "hard_disk_scaduto",
+      "name": "Hard Disk Scaduto",
+      "description": "Vecchio disco rigido pieno di settori KO. Utile per farti venire voglia di passare tutto su SSD open-source.",
+      "usable_in": ["ufficio", "abitazione_cliente"]
+    },
+    {
+      "id": "kit_saldatura",
+      "name": "Kit di Saldatura",
+      "description": "Saldatore, stagno e flux: l’arsenale perfetto per aggiustare circuiti, riparare dischi e dimostrare il potere dell’hardware libero.",
+      "usable_in": ["market", "data_center", "server_room", "casa"]
+    },
+    {
+      "id": "stick_ram",
+      "name": "Stick di RAM DDR4",
+      "description": "Modulo da 16 GB: upgrade essenziale per sfuggire alle chiamate del kernel panic e far girare il tuo IDE senza lag.",
+      "usable_in": ["market", "casa", "ufficio"]
+    },
+    {
+      "id": "capsula_speciale",
+      "name": "Capsula Speciale",
+      "description": "Caffè aromatizzato con vaniglia e overclock mentale: +20% di creatività e +10% di resistenza ai bug.",
+      "usable_in": ["caffè", "casa"]
+    },
+    {
+      "id": "floppy_disk",
+      "name": "Floppy Disk",
+      "description": "Supporto vintage da 1,44 MB. Saprà farti apprezzare il vero significato di “raison d’être” dell’open source.",
+      "usable_in": ["abitazione_cliente"]
+    },
+    {
+      "id": "disco_guasto",
+      "name": "Disco Guasto",
+      "description": "Hard disk con bad sector a volontà. Occorre il kit di saldatura per fare miracoli hardware-hacker.",
+      "usable_in": ["data_center", "server_room"]
+    },
+    {
+      "id": "modulo_ticket",
+      "name": "Modulo Ticket",
+      "description": "Cartaceo (sì, proprio di carta) per inoltrare richieste via fax o email. -10% di carbon footprint se riciclato.",
+      "usable_in": ["telefono_fax", "sala_email"]
+    }
+  ]
+}
