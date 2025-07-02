@@ -1,0 +1,19 @@
+it-adventures/
+├── data/                 # Contenuti di gioco (modificabili da JSON)
+│   ├── world.json
+│   ├── missions.json
+│   ├── items.json
+│   └── npcs.json
+│
+├── save.json             # Salvataggio automatico dello stato
+│
+├── src/                  # Codice Python modulare
+│   ├── data.py           # Caricamento/salvataggio dati, stato di gioco
+│   ├── ui.py             # Rendering a colori con Rich (HUD, stanze, tabelle)
+│   ├── engine.py         # Loop principale e parser comandi
+│   ├── quests.py         # Logica di missioni (quiz, fetch, eventi)
+│   └── npcs.py           # Dialoghi NPC e interazione
+│
+├── requirements.txt      # dipendenze Python
+├── Dockerfile            # esecuzione containerizzata
+└── .gitignore
