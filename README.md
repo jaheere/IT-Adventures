@@ -4,6 +4,15 @@
 
 Vestirai i panni di Luca, un informatico smaliziato, e girerai per Nerdstown tra casa, ufficio, caffè e data center. Risolverai quiz Linux, riparerai hardware, assisterai clienti e guadagnerai XP, crediti e reputazione open-source.
 
+<p align="center">
+  <a href="./index.html">
+    <img src="https://img.shields.io/badge/View–English%20Site–index.html-blue?style=for-the-badge" alt="English Version" />
+  </a>
+  <a href="./index-ita.html">
+    <img src="https://img.shields.io/badge/Visualizza–Versione%20Italiana–index-ita.html-blue?style=for-the-badge" alt="Versione Italiana" />
+  </a>
+</p>
+
 ---
 
 ## 📁 Struttura del progetto
