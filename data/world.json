@@ -156,5 +156,26 @@
       "success": "Accesso ROOT ottenuto! Il rack si apre e sblocchi un server segreto.",
       "failure": "Permessi negati: 403 Forbidden. Forse ti serve più caffè."
     }
+  },
+   "quiz_retro": {
+    "question": "Quale anno vide il lancio dell’Apple I?",
+    "options": ["1974", "1976", "1980", "1984"],
+    "answer": 1,
+    "success": "Hai rispolverato la storia! Ottieni un adesivo vintage.",
+    "failure": "Troppo recente? Forse un museo non basta, serve più memoria storica."
+  },
+  "ddos_attack": {
+    "question": "Allerta DDoS in corso: quale tool blocca IP sospetti?",
+    "options": ["iptables", "iftop", "curl", "ssh"],
+    "answer": 0,
+    "success": "Regole aggiornate, traffico pulito!",
+    "failure": "Server sommerso, perdi crediti e reputazione."
+  },
+  "blackout": {
+    "question": "Blackout improvviso: qual è la scorciatoia per disattivare la modalità grafica?",
+    "options": ["ctrl+alt+f1", "alt+f4", "ctrl+c", "ctrl+z"],
+    "answer": 0,
+    "success": "Torna in console, sistema sotto controllo.",
+    "failure": "Schermo nero, perdi l’accesso a funzionalità vitali."
   }
 }
