@@ -295,6 +295,186 @@
     "name": "Raspberry Pi Zero W",
     "description": "Versione ultracompatta di Raspberry Pi con Wi-Fi e Bluetooth integrati: perfetta per gadget IoT e automazioni veloci.",
     "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "adapter_hdmi_vga",
+    "name": "Adattatore HDMI → VGA",
+    "description": "Convertitore attivo per collegare monitor VGA a porte HDMI: plug-and-play senza distorsioni.",
+    "usable_in": ["ufficio", "casa", "sala_chat"]
+  },
+  {
+    "id": "docking_station_usb_c",
+    "name": "Docking Station USB-C",
+    "description": "Stazione di espansione con porte HDMI, Ethernet, USB-A e reader SD: trasforma il laptop in una workstation completa.",
+    "usable_in": ["ufficio", "casa"]
+  },
+  {
+    "id": "nas_2bay",
+    "name": "NAS 2-Bay",
+    "description": "Storage di rete con due vani per HDD/SSD: RAID 1 opzionale, ideale per backup condivisi in ufficio o casa.",
+    "usable_in": ["ufficio", "data_center"]
+  },
+  {
+    "id": "arduino_uno",
+    "name": "Arduino Uno R3",
+    "description": "Microcontrollore ATmega328P per prototipi elettronici open source: flash, sensori e sketch in pochi secondi.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "breadboard_400pt",
+    "name": "Breadboard 400 Punti",
+    "description": "Piastra per prototipazione rapida: collega componenti senza saldature e testa circuiti in un lampo.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "router_openwrt",
+    "name": "Router con OpenWrt",
+    "description": "Router flashato con firmware open source: firewall avanzato, QoS, VPN e controllo totale sul traffico.",
+    "usable_in": ["ufficio", "casa", "data_center"]
+  },
+  {
+    "id": "modem_4g",
+    "name": "Modem 4G LTE",
+    "description": "Dongle USB con SIM integrata: connettività mobile di backup per non restare mai offline.",
+    "usable_in": ["casa", "strada", "ufficio"]
+  },
+  {
+    "id": "telecamera_ip",
+    "name": "Telecamera IP PoE",
+    "description": "Camera di sorveglianza alimentata via Ethernet: risoluzione Full HD, visione notturna e supporto ONVIF.",
+    "usable_in": ["data_center", "server_room", "ufficio"]
+  },
+  {
+    "id": "cavo_usb_c_ethernet",
+    "name": "Cavo USB-C → RJ45",
+    "description": "Adattatore cavo per connessione Ethernet diretta da porta USB-C: velocità gigabit senza hub aggiuntivi.",
+    "usable_in": ["casa", "ufficio", "strada"]
+  },
+  {
+    "id": "raspberry_pi_zero",
+    "name": "Raspberry Pi Zero W",
+    "description": "Versione ultracompatta di Raspberry Pi con Wi-Fi e Bluetooth integrati: perfetta per gadget IoT e automazioni veloci.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "cavo_fibra_ottica",
+    "name": "Cavo Fibra Ottica",
+    "description": "Cavo a fibra ottica monomodale per collegamenti ultraveloce e a bassa latenza.",
+    "usable_in": ["strada", "data_center", "server_room"]
+  },
+  {
+    "id": "kit_pulizia",
+    "name": "Kit Pulizia Componenti",
+    "description": "Spazzolino antistatico, spray ad aria compressa e panni in microfibra per hardware impeccabile.",
+    "usable_in": ["data_center", "server_room", "ufficio"]
+  },
+  {
+    "id": "occhiali_vr",
+    "name": "Occhiali VR Prototipo",
+    "description": "Visore per realtà virtuale ad alta risoluzione, ottimo per sessioni di debug immersive.",
+    "usable_in": ["casa", "sala_chat", "ufficio"]
+  },
+  {
+    "id": "micro_sd",
+    "name": "MicroSD 128 GB",
+    "description": "Scheda di memoria ad alta capacità per storage rapido su SBC e device portatili.",
+    "usable_in": ["market", "casa", "ufficio"]
+  },
+  {
+    "id": "ventilatore_usb",
+    "name": "Ventilatore USB Portatile",
+    "description": "Mini-ventola USB per rinfrescare tastiera e laptop durante le sessioni estive di coding.",
+    "usable_in": ["casa", "ufficio", "data_center"]
+  },
+  {
+    "id": "gold_plated_ethernet",
+    "name": "Cavo Ethernet Gold-Plated",
+    "description": "Cavo RJ45 con contatti dorati per connessioni stabili e anti-corrosione.",
+    "usable_in": ["strada", "ufficio", "data_center"]
+  },
+  {
+    "id": "power_cord",
+    "name": "Cavo di Alimentazione IEC C13",
+    "description": "Cavo standard per alimentare PC e server con connettore C13/C14.",
+    "usable_in": ["casa", "ufficio"]
+  },
+  {
+    "id": "ink_cartridge",
+    "name": "Cartuccia Inchiostro Printer",
+    "description": "Cartuccia originale per stampante office, resistente allo sbiadimento.",
+    "usable_in": ["ufficio", "sala_email", "telefono_fax"]
+  },
+  {
+    "id": "brochure_info",
+    "name": "Brochure Aziendale",
+    "description": "Volantino illustrativo con servizi e offerte per networking e consulenze IT.",
+    "usable_in": ["strada", "market"]
+  },
+  {
+    "id": "business_card",
+    "name": "Biglietto da Visita",
+    "description": "Biglietto elegante con contatti e QR code al tuo portfolio GitHub.",
+    "usable_in": ["strada", "ufficio", "market"]
+  },
+  {
+    "id": "ethernet_pigtail",
+    "name": "Ethernet Pigtail RJ45",
+    "description": "Cavo corto patch per collegare dispositivi a switch senza ingombri.",
+    "usable_in": ["strada", "data_center", "server_room"]
+  },
+  {
+    "id": "cable_ties",
+    "name": "Fascette Ferma Cavi",
+    "description": "Set di fascette in nylon per organizzare e raggruppare i cavi nei rack.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "antistatico_guanto",
+    "name": "Guanti Antistatico",
+    "description": "Guanti protettivi per manipolare componenti sensibili senza danneggiarli.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "tool_kit",
+    "name": "Kit Attrezzi Multiuso",
+    "description": "Cacciaviti, pinze e punte intercambiabili per riparazioni hardware su PC e server.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "power_adapter",
+    "name": "Adattatore AC/DC Universale",
+    "description": "Trasformatore multi-voltaggio per alimentare laptop e dispositivi da rete elettrica.",
+    "usable_in": ["casa", "ufficio"]
+  },
+  {
+    "id": "camera_termica",
+    "name": "Telecamera Termica",
+    "description": "Dispositivo IR per individuare hotspot su server e componenti surriscaldati.",
+    "usable_in": ["data_center", "server_room"]
+  },
+  {
+    "id": "batteria_litio",
+    "name": "Batteria Li-Ion 18650",
+    "description": "Cellula ricaricabile da 3,7 V per progetti fai-da-te e backup d’emergenza.",
+    "usable_in": ["casa", "strada", "ufficio"]
+  },
+  {
+    "id": "sd_card_adapter",
+    "name": "Adapter MicroSD → SD",
+    "description": "Adattatore meccanico per usare microSD in slot SD standard.",
+    "usable_in": ["casa", "market"]
+  },
+  {
+    "id": "wifi_sniffer",
+    "name": "Wi-Fi Sniffer USB",
+    "description": "Dongle USB con chipset monitor mode per catturare pacchetti wireless.",
+    "usable_in": ["casa", "ufficio", "caffè"]
+  },
+  {
+    "id": "cable_crimper",
+    "name": "Pinza Crimpatrice RJ45",
+    "description": "Strumento per terminare cavi Ethernet con connettori RJ45 in pochi secondi.",
+    "usable_in": ["data_center", "server_room"]
   }  
   ]
 }
