@@ -235,6 +235,66 @@
     "name": "Speaker Bluetooth Portatile",
     "description": "Cassa wireless resistente all’acqua per ascoltare musica o notifiche sonore anche in area esterna o laboratorio.",
     "usable_in": ["casa", "caffè", "fab_lab"]
+  },
+  {
+    "id": "adapter_hdmi_vga",
+    "name": "Adattatore HDMI → VGA",
+    "description": "Convertitore attivo per collegare monitor VGA a porte HDMI: plug-and-play senza distorsioni.",
+    "usable_in": ["ufficio", "casa", "sala_chat"]
+  },
+  {
+    "id": "docking_station_usb_c",
+    "name": "Docking Station USB-C",
+    "description": "Stazione di espansione con porte HDMI, Ethernet, USB-A e reader SD: trasforma il laptop in una workstation completa.",
+    "usable_in": ["ufficio", "casa"]
+  },
+  {
+    "id": "nas_2bay",
+    "name": "NAS 2-Bay",
+    "description": "Storage di rete con due vani per HDD/SSD: RAID 1 opzionale, ideale per backup condivisi in ufficio o casa.",
+    "usable_in": ["ufficio", "data_center"]
+  },
+  {
+    "id": "arduino_uno",
+    "name": "Arduino Uno R3",
+    "description": "Microcontrollore ATmega328P per prototipi elettronici open source: flash, sensori e sketch in pochi secondi.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "breadboard_400pt",
+    "name": "Breadboard 400 Punti",
+    "description": "Piastra per prototipazione rapida: collega componenti senza saldature e testa circuiti in un lampo.",
+    "usable_in": ["fab_lab", "casa"]
+  },
+  {
+    "id": "router_openwrt",
+    "name": "Router con OpenWrt",
+    "description": "Router flashato con firmware open source: firewall avanzato, QoS, VPN e controllo totale sul traffico.",
+    "usable_in": ["ufficio", "casa", "data_center"]
+  },
+  {
+    "id": "modem_4g",
+    "name": "Modem 4G LTE",
+    "description": "Dongle USB con SIM integrata: connettività mobile di backup per non restare mai offline.",
+    "usable_in": ["casa", "strada", "ufficio"]
+  },
+  {
+    "id": "telecamera_ip",
+    "name": "Telecamera IP PoE",
+    "description": "Camera di sorveglianza alimentata via Ethernet: risoluzione Full HD, visione notturna e supporto ONVIF.",
+    "usable_in": ["data_center", "server_room", "ufficio"]
+  },
+  {
+    "id": "cavo_usb_c_ethernet",
+    "name": "Cavo USB-C → RJ45",
+    "description": "Adattatore cavo per connessione Ethernet diretta da porta USB-C: velocità gigabit senza hub aggiuntivi.",
+    "usable_in": ["casa", "ufficio", "strada"]
+  },
+  {
+    "id": "raspberry_pi_zero",
+    "name": "Raspberry Pi Zero W",
+    "description": "Versione ultracompatta di Raspberry Pi con Wi-Fi e Bluetooth integrati: perfetta per gadget IoT e automazioni veloci.",
+    "usable_in": ["fab_lab", "casa"]
   }  
   ]
 }
