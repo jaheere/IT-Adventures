@@ -1,0 +1,114 @@
+{
+  "rooms": {
+    "casa": {
+      "title": "Casa di Luca",
+      "desc": "Nel tuo covo nerd trovi monitor impilati come Jenga, sticker Linux su ogni superficie e un gattino che batte sui tasti. Sul tavolo c’è una tazza di caffè freddo con la scritta “sudo unlock_energy”.",
+      "exits": {
+        "esci": "strada"
+      },
+      "items": ["portatile", "tazza_caffè"]
+    },
+    "strada": {
+      "title": "Via Principale di Nerdstown",
+      "desc": "Il marciapiede è un groviglio di cavi Ethernet. Ogni tanto passi accanto a un chiosco di street-food che ti offre CPU-fritte e RAM-saltata.",
+      "exits": {
+        "nord": "ufficio",
+        "sud": "market",
+        "ovest": "caffè"
+      },
+      "items": []
+    },
+    "ufficio": {
+      "title": "Open-Space TechCorp",
+      "desc": "Un coro di click-click-click di tastiere, poster con “Keep Calm & Code Open Source” e un grafico 500 che lampeggia più di una sirena di ambulanza.",
+      "exits": {
+        "sud": "strada",
+        "nord": "data_center"
+      },
+      "items": ["hard_disk_scaduto"]
+    },
+    "market": {
+      "title": "Nerdstown Market",
+      "desc": "Bancarelle di gadget: RAM RGB che luccicano, SSD veloci come warp drive e gadget open-source di ogni forma. Un venditore promette “benchmark da infarto” se compri oggi.",
+      "exits": {
+        "nord": "strada"
+      },
+      "items": ["kit_saldatura", "stick_ram"]
+    },
+    "caffè": {
+      "title": "Bean Overclock Café",
+      "desc": "Qui il caffè scorre come un flusso di pacchetti in fibra ottica. Il menu parla di “Espresso a 5GHz” e “Latte macchiato con 16 thread” per overclocker affamati.",
+      "exits": {
+        "est": "strada",
+        "interno": "sala_chat"
+      },
+      "items": ["capsula_speciale"]
+    },
+    "abitazione_cliente": {
+      "title": "Casa del Cliente Windows95",
+      "desc": "Tra vecchie cartucce di floppy e un desktop pieno di icone “Questo PC”, il tuo cliente implora di recuperare un file prima che riavvii in loop su Blue Screen.",
+      "exits": {
+        "fuori": "strada"
+      },
+      "items": ["floppy_disk"]
+    },
+    "data_center": {
+      "title": "Data Center di Nerdstown",
+      "desc": "Corridoi di server rumorosi che sembrano alveari di api robotiche. Un tecnico ti aspetta con un disco guasto e una richiesta: “Prima però, mi refacisti un caffè?”",
+      "exits": {
+        "sud": "ufficio",
+        "nord": "server_room"
+      },
+      "items": ["disco_guasto"],
+      "requires": "kit_saldatura"
+    },
+    "server_room": {
+      "title": "Server Room Suprema",
+      "desc": "Luci LED verdi che lampeggiano, rack perfettamente ordinati e un terminale che rema “echo ‘chi sei?’ > /dev/null”. Sembra chiederti di risolvere un enigma da admin.",
+      "exits": {
+        "sud": "data_center"
+      },
+      "items": [],
+      "event": "puzzle_server"
+    },
+    "sala_chat": {
+      "title": "Sala Live Chat",
+      "desc": "Postazioni con cuffie, monitor pieni di finestre di chat e un bot Python che manda gattini ASCII. Hai una coda di ticket lunga come un commit log.",
+      "exits": {
+        "fuori": "caffè"
+      },
+      "items": []
+    },
+    "telefono_fax": {
+      "title": "Centro Telefonico & Fax",
+      "desc": "Centralini vintage e un fax che sgrana pagine di ticket urgenti. Sul muro un cartello: “Non mandare fax se puoi mandare email” (ma tu sei un perfezionista).",
+      "exits": {
+        "fuori": "strada"
+      },
+      "items": ["modulo_ticket"]
+    },
+    "sala_email": {
+      "title": "Sala Email & Helpdesk",
+      "desc": "Client di posta aperti in 20 tab. Lo spam filter è crashato, ti arrivano mail con font Comic Sans e allegati eseguibili sospetti.",
+      "exits": {
+        "fuori": "strada"
+      },
+      "items": []
+    },
+    "cloud": {
+      "title": "Il Leggendario Cloud",
+      "desc": "Sei finalmente nel regno divino dell’alta disponibilità. Il tuo codice gira in container e persino le tue eccezioni si auto-riparano. Complimenti, sei un vero master IT!",
+      "exits": {},
+      "items": []
+    }
+  },
+  "events": {
+    "puzzle_server": {
+      "question": "Terminale> \"Quale comando Linux mostra i permessi di un file (e ti fa sentire root)?\"",
+      "options": ["ls -l", "chmod", "stat", "permshow"],
+      "answer": 0,
+      "success": "Accesso ROOT ottenuto! Il rack si apre e sblocchi un server segreto.",
+      "failure": "Permessi negati: 403 Forbidden. Forse ti serve più caffè."
+    }
+  }
+}
