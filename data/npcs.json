@@ -490,6 +490,186 @@
         ]
       }
     ]
+  },
+  {
+    "id": "linus",
+    "name": "Linus Torvalds",
+    "location": "data_center",
+    "intro": "“Sono il papà di Linux, pronto a testare la tua conoscenza sulle licenze?”",
+    "quest_id": 59,
+    "dialogue": [
+      {
+        "line": "Linus: ‘Quale licenza ha reso Linux libero e copyleft forte?’",
+        "options": [
+          { "text": "GPL",        "correct": true  },
+          { "text": "MIT",        "correct": false },
+          { "text": "Apache",     "correct": false },
+          { "text": "BSD",        "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stallman",
+    "name": "Richard Stallman",
+    "location": "casa",
+    "intro": "“Ribalta la filosofia del software proprietario: dimmi cosa significa GNU.”",
+    "quest_id": 60,
+    "dialogue": [
+      {
+        "line": "Stallman: ‘GNU è acronimo di…’",
+        "options": [
+          { "text": "GNU’s Not Unix",  "correct": true  },
+          { "text": "Great New Unix",  "correct": false },
+          { "text": "GNU’s New Utility","correct": false },
+          { "text": "General Network Unix","correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wozniak",
+    "name": "Steve Wozniak",
+    "location": "ufficio",
+    "intro": "“Ho progettato il primo Apple II: vediamo se sai quale!”",
+    "quest_id": 61,
+    "dialogue": [
+      {
+        "line": "Wozniak: ‘Quale computer ho costruito per primo?’",
+        "options": [
+          { "text": "Apple I",    "correct": false },
+          { "text": "Apple II",   "correct": true  },
+          { "text": "Lisa",       "correct": false },
+          { "text": "Macintosh",  "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zuckerberg",
+    "name": "Mark Zuckerberg",
+    "location": "sala_chat",
+    "intro": "“Benvenuto su Facebook: sai davvero qual è il mio prodotto?”",
+    "quest_id": 62,
+    "dialogue": [
+      {
+        "line": "Zuckerberg: ‘Quale social network ho lanciato nel 2004?’",
+        "options": [
+          { "text": "Facebook",   "correct": true  },
+          { "text": "MySpace",    "correct": false },
+          { "text": "LinkedIn",   "correct": false },
+          { "text": "Twitter",    "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gates",
+    "name": "Bill Gates",
+    "location": "sala_email",
+    "intro": "“Dal BASIC a Windows, chiedimi l’anno della mia avventura Microsoft.”",
+    "quest_id": 63,
+    "dialogue": [
+      {
+        "line": "Gates: ‘In che anno ho fondato Microsoft?’",
+        "options": [
+          { "text": "1975",       "correct": true  },
+          { "text": "1976",       "correct": false },
+          { "text": "1980",       "correct": false },
+          { "text": "1985",       "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guido",
+    "name": "Guido van Rossum",
+    "location": "caffè",
+    "intro": "“Creatore di Python al tuo servizio: qual è l’estensione dei miei script?”",
+    "quest_id": 64,
+    "dialogue": [
+      {
+        "line": "Guido: ‘Quale estensione file identifica uno script Python?’",
+        "options": [
+          { "text": ".py",       "correct": true  },
+          { "text": ".js",       "correct": false },
+          { "text": ".rb",       "correct": false },
+          { "text": ".java",     "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lovelace",
+    "name": "Ada Lovelace",
+    "location": "market",
+    "intro": "“Sono stata la prima programmatrice: sai come ho annotato l’Analytical Engine?”",
+    "quest_id": 65,
+    "dialogue": [
+      {
+        "line": "Lovelace: ‘Come si chiamava la mia nota sul motore di Babbage?’",
+        "options": [
+          { "text": "Nota A",        "correct": true  },
+          { "text": "Nota B",        "correct": false },
+          { "text": "Appendice X",   "correct": false },
+          { "text": "Documento 1",   "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hopper",
+    "name": "Grace Hopper",
+    "location": "telefono_fax",
+    "intro": "“Ho creato il primo compilatore: vediamo se ricordi come si chiamava.”",
+    "quest_id": 66,
+    "dialogue": [
+      {
+        "line": "Hopper: ‘Qual era il nome del mio primo compilatore?’",
+        "options": [
+          { "text": "A-0",           "correct": true  },
+          { "text": "FORTRAN",      "correct": false },
+          { "text": "COBOL",        "correct": false },
+          { "text": "FLOW-MATIC",   "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tesla",
+    "name": "Nikola Tesla",
+    "location": "strada",
+    "intro": "“Pioniere dell’energia alternata: qual è stata la mia invenzione chiave?”",
+    "quest_id": 67,
+    "dialogue": [
+      {
+        "line": "Tesla: ‘Quale sistema ho promosso per la trasmissione di energia?’",
+        "options": [
+          { "text": "Corrente alternata",  "correct": true  },
+          { "text": "Corrente continua",   "correct": false },
+          { "text": "Energia solare",      "correct": false },
+          { "text": "Motore a vapore",     "correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turing",
+    "name": "Alan Turing",
+    "location": "server_room",
+    "intro": "“Teorizzai l’intelligenza artificiale: sai che test ho proposto?”",
+    "quest_id": 68,
+    "dialogue": [
+      {
+        "line": "Turing: ‘Quale test ho ideato per valutare l’intelligenza di una macchina?’",
+        "options": [
+          { "text": "Turing Test",  "correct": true  },
+          { "text": "Captcha",      "correct": false },
+          { "text": "Voight-Kampff","correct": false },
+          { "text": "Loebner Prize","correct": false }
+        ]
+      }
+    ]
   }  
   ]
 }
