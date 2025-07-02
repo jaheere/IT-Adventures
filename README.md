@@ -2,9 +2,13 @@
 #### Author: Bocaletto Luca
 #### OS: Linux
 
-**Un’avventura testuale comica e tecnica in puro stile open source**
+Un’avventura testuale comica e tecnica in puro stile open source
 
-Vestirai i panni di Luca, un informatico smaliziato, e girerai per Nerdstown tra casa, ufficio, caffè e data center. Risolverai quiz Linux, riparerai hardware, assisterai clienti e guadagnerai XP, crediti e reputazione open-source.
+In IT Adventures vestirai i panni di Luca, un informatico smaliziato con la passione per il kernel e il sarcasmo da riga di comando. La tua missione è esplorare Nerdstown, una metropoli al neon dove i cavi Ethernet crescono come liane in una giungla cyberpunk: dal caos ordinato della tua “Casa di Luca” – un covo pieno di monitor impilati, sticker Linux e un gatto programmatore –, all’ordine maniacale di TechCorp, fino ai rifugi calorosi del Bean Overclock Café e ai meandri meccanici del Data Center.
+
+Mentre ti muovi tra stanze disegnate con l’ironia degli admin nottambuli, affronterai quiz studiati per mettere alla prova la tua conoscenza di comandi Linux, protocolli di rete e best practice open source. Ogni risposta esatta ti premia con XP e aumenta la tua reputazione nella comunità, sbloccando accessi “sudo” a aree riservate e rivelando scorci nascosti del mondo. Ma non è solo teoria: dovrai riparare hardware guasto, utilizzare kit di saldatura, consegnare oggetti chiave e persino contrattare con NPC dalle personalità stravaganti, dai venditori di RAM RGB ai guru del ping perfetto.
+
+Tra un “kernel panic” e una battuta sul multitasking a 16 thread, guadagnerai crediti da spendere in potenziamenti – power bank, stick di RAM, microcontrollori Raspberry Pi – e in token open source che testimoniano il tuo impegno per la condivisione del sapere. Il gioco ti coinvolge con eventi imprevedibili (blackout, attacchi DDoS, quiz retrò) e side-quest che premiano l’esplorazione più curiosa. Preparati a un’esperienza che unisce la sfida tecnica di un lab di sysadmin con l’umorismo nerd più spinto: benvenuto in IT Adventures, dove l’open source è l’unica regola.
 
 <p align="center">
   <a href="./index.html">
